@@ -1,0 +1,440 @@
+# P-ROC Game Description file for Alien Poker (system 6)
+PRGame:
+    # Treat this as wpc as that's how the P-ROC will see it via the interface board.
+    # machineType: wpc
+    machineType: wpcAlphanumeric
+    numBalls: 1
+PRFlippers:
+    - flipperLwR
+    - flipperLwL
+PRBumpers:
+    - centerJetBumper
+    - rightJetBumper
+    - leftJetBumper
+    - bottomJetBumper
+    - leftKicker
+
+# Kickbacks if used here are only handled automatically by pinmame..
+PRKickbacks:
+#    rescue:
+PRPinmame:
+    # This section is specific to running the P-ROC via Pinmame.
+
+    # keyboard:
+    #   on or off - determines whether keyboard will be enabled or not
+    #   useful in a Sys11 in early debugging
+
+    # s11CreditDisplay and s11BallDisplay :
+    #   If using a Sys11 game prior which has a separate Ball/Credit display, you can put them on the
+    #   DMD.  If the value for a display is set to zero (or removed from YAML) it won't display.
+    #   Otherwise it's the vertical position of the display from the top.  Try 1 and 15 for a start.
+
+    # autoPatterDetection:
+    #   on or off - by default, Pinmame will try to automatically detect patter requirements.
+    #   there is a thread on the forum about this.  For Sys11 this should certainly be disabled,
+    #   as it does nasty things.  Likely enable for other platforms but could be useful to disable.
+
+    # doubleAlpha:
+    #   0 or 1 - set to 1 if your machine has 2 lines of 16 character alphanumeric displays.
+    #   This will adapt the code to properly handle the various display types in Sys11 machines (and a couple of WPC)
+
+    keyboard: off
+    autoPatterDetection: off
+    s11CreditDisplay: 0
+    s11BallDisplay: 0
+    doubleAlpha: 0
+PRSwitches:
+    # **** Format ****
+    # name:
+    #   number: <number>
+    #   type: <type>
+    #
+    #   <number> can be: SFx (Flipper switch, labeled Fx in WPC manual
+    #                    SDx (Dedicated switch, labeled SDx in WPC manual
+    #                    Sx  (Matrix switch, labeled x in WPC manual
+    #   <type> can be: 'NO' (normally open.  This is the default; so no need to use this)
+    #                  'NC' (normally closed.  Common for optos)
+
+    exit:
+        number: SD1
+    down:
+        number: SD2
+    up:
+        number: SD3
+    enter:
+        number: SD4
+    tilt:
+        number: S11
+    rollTilt:
+        number: S12
+    startButton:
+        number: S13
+    coinRight:
+        number: S14
+    coinCenter:
+        number: S15
+    coinLeft:
+        number: S16
+    slamTilt:
+        number: S17
+    hsReset:
+        number: S18
+    trough1:
+        number: S21
+    aDropTarget:
+        number: S22
+    leftSpecial:
+        number: S23
+    leftInsideRollover:
+        number: S24
+    leftKicker:
+        number: S25
+    lowerLeftJokerTarget:
+        number: S26
+    spadeAceEjectHole:
+        number: S27
+    middleLeftJokerTarget:
+        number: S28
+    spinner:
+        number: S31
+    kDropTarget:
+        number: S32
+    lowerStandUp:
+        number: S33
+    topJokerTarget:
+        number: S34
+    topStandup:
+        number: S35
+    clubAceEjectHole:
+        number: S36
+    kingOfHeartsRollover:
+        number: S37
+    kingOfClubsRollover:
+        number: S38
+    kingOfDiamondsRollover:
+        number: S41
+    qDroptTarget:
+        number: S42
+    kingOfSpadesRollover:
+        number: S43
+    topRightStandup:
+        number: S44
+    heartAceEjectHole:
+        number: S45
+    rightJokerTarget:
+        number: S46
+    playfieldTilt:
+        number: S47
+    rightSpecial:
+        number: S48
+    lowerRightStandup:
+        number: S51
+    jDropTarget:
+        number: S52
+    centerJetBumper:
+        number: S53
+    leftJetBumper:
+        number: S54
+    rightJetBumper:
+        number: S55
+    bottomJetBumper:
+        number: S56
+    leftCenterStandup:
+        number: S57
+    rightCenterStandup:
+        number: S58
+    fiveBankStandup:
+        number: S61
+    tenDropTarget:
+        number: S62
+    flipperLaneChange:
+        number: S63
+#FAKE ENTRIES TO GET US GOING
+    shooter:
+        number: S64
+    flipperLwL:
+        number: S65
+        label: 'Left Flipper EOS'
+    flipperLwR:
+        number: S66
+        label: 'Right Flipper EOS'
+
+  #  notUsed64:
+  #     number: 64
+  #  notUsed65:
+  #      number: S65
+  #  notUsed66:
+  #      number: S66
+    notUsed67:
+        number: S67
+    notUsed68:
+        number: S68
+    notUsed71:
+        number: S71
+    notUsed72:
+        number: S72
+    notUsed73:
+        number: S73
+    notUsed74:
+        number: S74
+    notUsed76:
+        number: S75
+    notUsed76:
+        number: S76
+    notUsed77:
+        number: S77
+    notUsed78:
+        number: S78
+    notUsed81:
+        number: S81
+    notUsed82:
+        number: S82
+    notUsed83:
+        number: S83
+    notUsed84:
+        number: S84
+    notUsed85:
+        number: S85
+    notUsed86:
+        number: S86
+    notUsed87:
+        number: S87
+    notUsed88:
+        number: S88
+PRCoils:
+#flipper entries are fake
+    flipperLwRMain:
+        number: FLRM
+        label: 'FLRM'
+    flipperLwRHold:
+        number: FLRH
+        label: 'FLRH'
+    flipperLwLMain:
+        number: FLLM
+        label: 'FLLM'
+    flipperLwLHold:
+        number: FLLH
+        label: 'FLLH'
+
+    trough:
+        number: C01
+    spadeAceEjectHoleCoil:
+        number: C02
+    heartAceEjectHoleCoil:
+        number: C03
+    tenDropTargetCoil:
+        number: C04
+    jDropTargetCoil:
+        number: C05
+    qDroptTargetCoil:
+        number: C06
+    kDroptTargetCoil:
+        number: C07
+    aDropTargetCoil:
+        number: C08
+    Sound1:
+        number: C09
+    Sound2:
+        number: C10
+    Sound3:
+        number: C11
+    Sound4:
+        number: C12
+    Sound5:
+        number: C13
+    creditKnocker:
+        number: C14
+    clubAceEjectHoleCoil:
+        number: C15
+    coilLockout:
+        number: C16
+    centerJetBumper:
+        number: C17
+    rightJetBumper:
+        number: C18
+    leftJetBumper:
+        number: C19
+    bottomJetBumper:
+        number: C20
+    dropTargetResetCoil:
+        number: C21
+    leftKicker:
+        number: C22
+    flipperEnable:
+        number: C23
+PRLamps:
+    shoot_again:
+        number: L11
+    leftSpecialLight:
+        number: L12
+    rightSpecialLight:
+        number: L13
+    pLight:
+        number: L14
+    oLight:
+        number: L15
+    kLight:
+        number: L16
+    eLight:
+        number: L17
+    rLight:
+        number: L18
+    twoXlight:
+        number: L21
+    threeXlight:
+        number: L22
+    fourXlight:
+        number: L23
+    fiveXlight:
+        number: L24
+    heartKingLight:
+        number: L25
+    clubKingLight:
+        number: L26
+    diamondKingLight:
+        number: L27
+    kingLight:
+        number: L28
+    royalFlush2xLight:
+        number: L31
+    royalFlush3x:
+        number: L32
+    royalFlush4x:
+        number: L33
+    royalFlush20000:
+        number: L34
+    royalFlush40000:
+        number: L35
+    royalFlush60000:
+        number: L36
+    royalFlush80000:
+        number: L37
+    royalFlush100000:
+        number: L38
+    aceOfHeartsLight:
+        number: L41
+    aceOfSpadesLight:
+        number: L42
+    aceOfClubsLight:
+        number: L43
+    advanceRoyalFlush:
+        number: L44
+    leftJetBumperLight:
+        number: L45
+    centerJetBumperLight:
+        number: L46
+    bottomJetBumperLight:
+        number: L47
+    rightJetBumperLight:
+        number: L48
+    lowerLeftJokerLight:
+        number: L51
+    middleLeftJokerLight:
+        number: L52
+    topLeftJokerLight:
+        number: L53
+    rightJokerLight:
+        number: L54
+    extraBallWhenLit:
+        number: L55
+    twentyKBonusLight:
+        number: L56
+    fourtyKBonusLight:
+        number: L57
+    twoKBonusLight:
+        number: L58
+    fourKBonusLight:
+        number: L61
+    sixKBonusLight:
+        number: L62
+    eightKBonusLight:
+        number: L63
+    tenKBonusLight:
+        number: L64
+    twelveKBonusLight:
+        number: L65
+    fourteenKBonusLight:
+        number: L66
+    sixteenKBonusLight:
+        number: L67
+    eightteenKBonusLight:
+        number: L68
+    unusedLight71:
+        number: L71
+    OneCanPlaylight:
+        number: L72
+    twoCanPlaylight:
+        number: L73
+    threeCanPlay:
+        number: L74
+    fourCanPlay:
+        number: L75
+    matchLight:
+        number: L76
+    ballInPlayLight:
+        number: L77
+    creditsPlayfieldLight:
+        number: L78
+    PlayerOneUpLight:
+        number: L81
+    PlayerTwoUpLight:
+        number: L82
+    PlayerThreeUpLight:
+        number: L83
+    PlayerFourUpLight:
+        number: L84
+    tiltLight:
+        number: L85
+    gameOverLight:
+        number: L86
+    samePlayerShootsAgainLight:
+        number: L87
+    highScoreLight:
+        number: L88
+PRBallSave:
+    pulseCoils:
+    resetSwitches:
+#        shooterL: open
+#        outlaneL: open
+#        inlaneL: open
+#        threeBankTargets: open
+#        rightTopPost: open
+#        captiveBall1: open
+#        mystery: open
+#        leftRampEnter: closed
+#        leftRollover: open
+#        inlaneR: open
+#        topCenterRollover: open
+#        leftScorePost: open
+#        subwayEnter1: open
+#        subwayEnter2: open
+#        shooterR: open
+#        outlaneR: open
+#        inlaneFarR: open
+#        slingL: open
+#        slingR: open
+#        captiveBall2: open
+#        dropTargetJ: open
+#        dropTargetU: open
+#        dropTargetD: open
+#        dropTargetG: open
+#        dropTargetE: open
+#        trough1: closed
+#        leftRampEnter: closed
+#        leftRampToLock: closed
+#        leftRampExit: closed
+#        rightRampEnter: closed
+#        centerRampExit: closed
+#        captiveBall3: open
+#        topRightOpto: closed
+#        topRampExit: closed
+#        rightRampExit: closed
+#        globePosition2: open
+    stopSwitches:
+#        shooterR: closed
+#        shooterL: closed
+#        popperL: active
+#        popperR: active
+#        # don't ball search if a flipper button is pressed
+#        flipperLwL: closed
+#        flipperLwR: closed

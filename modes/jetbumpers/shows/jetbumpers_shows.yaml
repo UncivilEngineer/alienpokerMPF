@@ -1,0 +1,11 @@
+#show_version=4
+- duration: 2s
+  slides:
+      jet_hit_slide:
+        widgets:
+        - type: text
+          text: (score) hits left to level up
+          font_name: DS-DIGI
+          font_size: 50
+          y: 50
+          anchor_y: bottom

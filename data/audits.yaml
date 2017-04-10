@@ -1,0 +1,62 @@
+events:
+  game_ended: 19
+  game_started: 126
+player:
+  score:
+    average: 20.0
+    top:
+    - 220
+    - 50
+    - 40
+    - 40
+    - 20
+    - 20
+    - 10
+    - 0
+    - 0
+    - 0
+    total: 20
+switches:
+  s_ace_drop_target: 18
+  s_bottom_jet_bumper: 45
+  s_center_coin: 0
+  s_center_jet_bumper: 172
+  s_club_ace_eject: 4
+  s_drain: 137
+  s_five_bank_standup: 20
+  s_flipper_lane_change: 158
+  s_heart_ace_eject: 38
+  s_hs_reset: 0
+  s_jack_drop_target: 1
+  s_king_clubs_rollover: 13
+  s_king_diamonds_rollover: 6
+  s_king_drop_target: 42
+  s_king_hearts_rollover: 21
+  s_king_spades_rollover: 15
+  s_left_center_standup: 4
+  s_left_coint: 0
+  s_left_inside_rollover: 3
+  s_left_jet_bumper: 22
+  s_left_kicker: 17
+  s_left_special: 7
+  s_lower_left_joker: 8
+  s_lower_right_standup: 54
+  s_lower_standup: 5
+  s_middle_left_joker: 8
+  s_playfield_tilt: 0
+  s_queen_drop_target: 0
+  s_right_center_standup: 6
+  s_right_coin: 0
+  s_right_jet_bumper: 42
+  s_right_joker: 11
+  s_right_special: 5
+  s_roll_tilt: 0
+  s_slam_tilt: 0
+  s_spade_ace_eject: 31
+  s_spinner: 127
+  s_start_button: 6
+  s_ten_drop_target: 23
+  s_tilt: 0
+  s_top_joker: 12
+  s_top_right_standup: 4
+  s_top_standup: 7

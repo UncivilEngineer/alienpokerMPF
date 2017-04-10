@@ -1,0 +1,383 @@
+#config_version=4
+hardware:
+    platform: p_roc
+    driverboards: wpc
+    coils: snux
+
+snux:
+    flipper_enable_driver: c_flipper_enable_driver
+    diag_led_driver: c_diag_led_driver
+    platform:
+
+system11:
+  ac_relay_delay_ms: 75
+  ac_relay_driver: c_ac_relay
+
+player_vars:
+  #variables used by jetbumpers mode
+  jetlevel:
+    initial_value: 0
+  jetcount:
+    initial_value: 0
+
+modes:
+  - base
+  - jetbumpers
+  - jetbumpers_lvl_1
+
+
+displays:
+    window:
+        width: 800
+        height: 400
+switches:
+    s_tilt:
+      number: S11
+    s_roll_tilt:
+      number: S12
+    s_start_button:
+      number: S13
+      tags: start
+    s_right_coin:
+      number: S14
+    s_center_coin:
+      number: S15
+    s_left_coint:
+      number: S16
+    s_slam_tilt:
+      number: S17
+    s_hs_reset:
+      number: S18
+    s_drain:
+      number: S21
+      tags: playfield_active
+    s_ace_drop_target:
+      number: S22
+      tags: playfield_active
+    s_left_special:
+      number: S23
+      tags: playfield_active
+    s_left_inside_rollover:
+      number: S24
+      tags: playfield_active
+    s_left_kicker:
+      number: S25
+      tags: playfield_active
+    s_lower_left_joker:
+      number: S26
+      tags: playfield_active
+    s_spade_ace_eject:
+      number: S27
+      tags: playfield_active
+      ignore_window_ms: 200
+    s_middle_left_joker:
+      number: S28
+      tags: playfield_active
+    s_spinner:
+      number: S31
+      tags: playfield_active
+    s_king_drop_target:
+      number: S32
+      tags: playfield_active
+    s_lower_standup:
+      number: S33
+      tags: playfield_active
+    s_top_joker:
+      number: S34
+      tags: playfield_active
+    s_top_standup:
+      number: S35
+      tags: playfield_active
+    s_club_ace_eject:
+      number: S36
+      tags: playfield_active
+      ignore_window_ms: 200
+    s_king_hearts_rollover:
+      number: S37
+      tags: playfield_active
+    s_king_clubs_rollover:
+      number: S38
+      tags: playfield_active
+    s_king_diamonds_rollover:
+      number: S41
+      tags: playfield_active
+    s_queen_drop_target:
+      number: S42
+      tags: playfield_active
+    s_king_spades_rollover:
+      number: S43
+      tags: playfield_active
+    s_top_right_standup:
+      number: S44
+      tags: playfield_active
+    s_heart_ace_eject:
+      number: S45
+      ignore_window_ms: 200
+      tags: playfield_active
+    s_right_Joker:
+      number: S46
+      tags: playfield_active
+    s_playfield_tilt:
+      number: S47
+    s_right_special:
+      number: S48
+      tags: playfield_active
+    s_lower_right_standup:
+      number: S51
+      tags: playfield_active
+    s_jack_drop_target:
+      number: S52
+      tags: playfield_active
+    s_center_jet_bumper:
+      number: S53
+      tags: playfield_active
+    s_left_jet_bumper:
+      number: S54
+      tags: playfield_active
+    s_right_jet_bumper:
+      number: S55
+      tags: playfield_active
+    s_bottom_jet_bumper:
+      number: S56
+      tags: playfield_active
+    s_left_center_standup:
+      number: S57
+      tags: playfield_active
+    s_right_center_standup:
+      number: S58
+      tags: playfield_active
+    s_five_bank_standup:
+      number: S61
+      tags: playfield_active
+    s_ten_drop_target:
+      number: S62
+      tags: playfield_active
+    s_flipper_lane_change:
+      number: S63
+
+
+coils:
+  #fake entry for ac relay
+    c_ac_relay:
+      number: c09
+      allow_enable: true
+
+  #this is actually an used sound coil
+    c_drain_eject:
+      number: c01
+      pulse_ms: 30
+    c_spade_ace_eject:
+      number: c02
+      pulse_ms: 30
+    c_heart_ace_eject:
+      number: c03
+      pulse_ms: 30
+    c_ten_drop_target_reset:
+      number: c04
+    c_jack_drop_target_reset:
+      number: c05
+    c_queen_drop_target_reset:
+      number: c06
+    c_king_drop_target_reset:
+      number: c07
+    c_ace_drop_target_reset:
+      number: c08
+    #were going to skip the sound coils (C9-13)
+    c_credit_knocker:
+      number: c14
+    c_club_ace_eject:
+      number: c15
+      pulse_ms: 30
+    c_coin_lockout:
+      number: c16
+      allow_enable: true
+    c_center_jet_bumper:
+      number: c17
+    c_right_jet_bumper:
+      number: c18
+    c_left_jet_bumper:
+      number: c19
+    c_bottom_jet_bumper:
+      number: c20
+    c_drop_target_release:
+      number: c21
+    c_left_kicker:
+      number: c22
+    c_diag_led_driver:
+      number: c24
+      allow_enable: true
+    c_flipper_enable_driver:
+      number: c23
+      allow_enable: true
+      enable_events: flipper_on
+      disable_events: flipper_off
+
+matrix_lights:
+  l_shoot_again:
+    number: L11
+  l_left_special:
+    number: L12
+  l_right_special:
+    number: L13
+  l_p_light:
+    number: L14
+  l_o_light:
+    number: L15
+  l_k_light:
+    number: L16
+  l_e_light:
+    number: L17
+  l_r_light:
+    number: L18
+  l_2x:
+    number: L21
+  l_3x:
+    number: L22
+  l_4x:
+    number: L23
+  l_5x:
+    number: L24
+  l_heart_king_rollover:
+    number: L25
+  l_club_king_rollover:
+    number: L26
+  l_diamond_king_rollover:
+    number: L27
+  l_spade_king_rollover:
+    number: L28
+  l_royal_flush_2x:
+    number: L31
+  l_royal_flush_3x:
+    number: L32
+  l_royal_flush_4x:
+    number: L33
+  l_royal_flush_20000:
+    number: L34
+  l_royal_flush_40000:
+    number: L35
+  l_royal_flush_60000:
+    number: L36
+  l_royal_flush_80000:
+    number: L37
+  l_royal_flush_100000:
+    number: L38
+  l_ace_hearts:
+    number: L41
+  l_ace_spades:
+    number: L42
+  l_ace_clubs:
+    number: L43
+  l_advance_royal_flush:
+    number: L44
+  l_left_jet_bumper:
+    number: L45
+  l_center_jet_bumper:
+    number: L46
+  l_bottom_jet_bumper:
+    number: L47
+  l_right_jet_bumper:
+    number: L48
+  l_lower_left_joker:
+    number: L51
+  l_middle_left_joker:
+    number: L52
+  l_top_left_joker:
+    number: L53
+  l_right_joker:
+    number: L54
+  l_extra_ball:
+    number: L55
+  l_20k_bonus:
+    number: L56
+  l_40k_bonus:
+    number: L57
+  l_2k_bonus:
+    number: L58
+  l_4k_bonus:
+    number: L61
+  l_6k_bonus:
+    number: L62
+  l_8k_bonus:
+    number: L63
+  l_10k_bonus:
+    number: L64
+  l_12k_bonus:
+    number: L65
+  l_14k_bonus:
+    number: L66
+  l_16k_bonus:
+    number: L67
+  l_18k_bonus:
+    number: L68
+  l_1_can_play:
+    number: L72
+  l_2_can_play:
+    number: L73
+  l_3_can_play:
+    number: L74
+  l_4_can_play:
+    number: L75
+  l_match:
+    number: L76
+  l_ball_in_play:
+    number: L77
+  l_credits:
+    number: L78
+  l_player_1_up:
+    number: L81
+  l_player_2_up:
+    number: L82
+  l_player_3_up:
+    number: L83
+  l_player_4_up:
+    number: L84
+  l_tilt:
+    number: L85
+  l_game_over:
+    number: L86
+  l_same_player_shoots_again:
+    number: L87
+  l_high_score:
+    number: L88
+
+
+
+ball_devices:
+    bd_drain:
+        ball_switches: s_drain
+        eject_coil: c_drain_eject
+        #eject_targets: bd_plunger_lane
+        tags: drain, home, trough, ball_add_live
+
+    bd_club_ace_saucer:
+      ball_switches: s_club_ace_eject
+      eject_coil: c_club_ace_eject
+      eject_timeouts: 1s
+
+    bd_heart_ace_saucer:
+      ball_switches: s_heart_ace_eject
+      eject_coil: c_heart_ace_eject
+      eject_timeouts: 1s
+
+    bd_spade_ace_saucer:
+      ball_switches: s_spade_ace_eject
+      eject_coil: c_spade_ace_eject
+      eject_timeouts: 1s
+
+virtual_platform_start_active_switches:
+    s_drain
+
+slides:
+  welcome_slide:
+    widgets:
+    - type: text
+      text: PINBALL!
+      font_size: 50
+      color: red
+    - type: rectangle
+      width: 240
+      height: 60
+
+
+slide_player:
+    init_done: welcome_slide

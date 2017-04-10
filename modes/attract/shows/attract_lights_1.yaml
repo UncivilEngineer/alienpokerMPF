@@ -1,0 +1,40 @@
+#show_version=4
+- duration: 1
+  lights:
+    l_p_light: ff
+    l_o_light: 0
+    l_k_light: 0
+    l_e_light: 0
+    l_r_light: 0
+
+- duration: 1
+  lights:
+      l_p_light: 0
+      l_o_light: ff
+      l_k_light: 0
+      l_e_light: 0
+      l_r_light: 0
+
+- duration: 1
+  lights:
+    l_p_light: 0
+    l_o_light: 0
+    l_k_light: ff
+    l_e_light: 0
+    l_r_light: 0
+
+- duration: 1
+  lights:
+    l_p_light: 0
+    l_o_light: 0
+    l_k_light: 0
+    l_e_light: ff
+    l_r_light: 0
+
+- duration: 1
+  lights:
+    l_p_light: 0
+    l_o_light: 0
+    l_k_light: 0
+    l_e_light: 0
+    l_r_light: ff

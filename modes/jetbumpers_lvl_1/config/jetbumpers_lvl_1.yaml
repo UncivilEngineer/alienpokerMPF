@@ -1,0 +1,73 @@
+#config_version=4
+mode:
+  start_events: mode_jetbumpers_stopped
+  stop_events: ball_stopped
+  priority: 150
+
+logic_blocks:
+  counters:
+    jetlevel2:
+      count_events:
+        - s_center_jet_bumper_active
+        - s_right_jet_bumper_active
+        - s_left_jet_bumper_active
+        - s_bottom_jet_bumper_active
+      events_when_hit: score_jet jetcounter
+      starting_count: 0
+      count_complete_value: 60
+      direction: up
+      events_when_complete: jet_level_increase
+
+
+slide_player:
+      jetcounter:  #event that triggers
+        jetcounter_slide:  #slide event calls
+          expire: 2s #show the slide for two seconds
+
+      mode_jetbumpers_lvl_1_started:
+        jet_level_increase_slide:
+          expire: 2s
+
+light_player:
+  mode_jetbumpers_lvl_1_started.1:
+    l_left_jet_bumper: ff
+    l_center_jet_bumper: ff
+    l_right_jet_bumper: ff
+    l_bottom_jet_bumper: ff
+
+
+
+scoring:
+  score_jet:
+    score: 1000
+  jet_level_increase:
+    score: 10000
+    jetlevel: 1
+
+
+slides:
+  jetcounter_slide: #this slide is shown when the bumpers hit
+      widgets:
+      - type: text
+      #the remaining variable gets passed from jetcounter
+      #Us the event viewer in monitor to check for avaliable values
+        text: (remaining) hits left to level up
+        font_name: DS-DIGI
+        font_size: 75
+        y: 70
+        anchor_y: bottom
+
+  jet_level_increase_slide:
+      widgets:
+      - type: text
+        text: Jets now at level 1!
+        font_size: 75
+        font_name: DS-DIGI
+        y: 70
+        anchor_y: bottom
+
+
+#scoring:
+#  s_center_jet_bumper_active{jetcount > 1}:
+#    jetcount: 1
+#    score: 100
