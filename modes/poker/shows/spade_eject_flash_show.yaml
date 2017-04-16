@@ -1,0 +1,8 @@
+#show_version=4
+- duration: 1
+  lights:
+    l_ace_spades: ff
+
+- duration: 1
+  lights:
+    l_ace_spades: 0

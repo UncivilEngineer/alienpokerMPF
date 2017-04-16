@@ -9,6 +9,19 @@ event_player:
   tilt: flipper_off
   slam_tilt: filppers_off
 
+sound_player:
+  mode_base_started:
+    jedirock1:
+      action: play
+      loops: 2
+  ball_ending:
+    jedirock1:
+      action: stop
+
+  mode_base_stopping:
+    jedirock1:
+      action: stop
+
 slide_player:
   mode_base_started:
     widgets:

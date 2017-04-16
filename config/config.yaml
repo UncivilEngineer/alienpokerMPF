@@ -13,23 +13,61 @@ system11:
   ac_relay_delay_ms: 75
   ac_relay_driver: c_ac_relay
 
-player_vars:
-  #variables used by jetbumpers mode
-  jetlevel:
-    initial_value: 0
-  jetcount:
-    initial_value: 0
 
 modes:
   - base
   - jetbumpers
-  - jetbumpers_lvl_1
-
+  - poker
 
 displays:
     window:
         width: 800
         height: 400
+
+sound_system:
+  master_volume: .75
+  tracks:
+     music:
+       simultaneous_sounds: 1
+       volume: .5
+     voice:
+       simultaneous_sounds: 1
+       volume: .7
+     sfx:
+       simultaneous_sounds: 8
+       volume: .4
+
+assets:
+  sounds:
+    default:
+      load: on_demand
+    music:
+      track: music
+    voice:
+      track: voice
+    sfx:
+      track: sfx
+
+sounds:
+  blast1:
+    file: blast1.ogg
+    volume: 0.85
+  blast2:
+    file: blast2.ogg
+    volume: 0.85
+  blast3:
+    file: blast3.ogg
+    volume: 0.85
+  blast4:
+    file: blast4.ogg
+    volume: 0.85
+  jedirock1:
+    file: jedirock1.ogg
+    volume: 0.85
+  jedirock2:
+    file: jedirock2ogg
+    volume: 0.85
+
 switches:
     s_tilt:
       number: S11
@@ -50,7 +88,7 @@ switches:
       number: S18
     s_drain:
       number: S21
-      tags: playfield_active
+      #tags: playfield_active
     s_ace_drop_target:
       number: S22
       tags: playfield_active
@@ -68,7 +106,7 @@ switches:
       tags: playfield_active
     s_spade_ace_eject:
       number: S27
-      tags: playfield_active
+      #tags: playfield_active
       ignore_window_ms: 200
     s_middle_left_joker:
       number: S28
@@ -90,7 +128,7 @@ switches:
       tags: playfield_active
     s_club_ace_eject:
       number: S36
-      tags: playfield_active
+      #tags: playfield_active
       ignore_window_ms: 200
     s_king_hearts_rollover:
       number: S37
@@ -113,7 +151,7 @@ switches:
     s_heart_ace_eject:
       number: S45
       ignore_window_ms: 200
-      tags: playfield_active
+      #tags: playfield_active
     s_right_Joker:
       number: S46
       tags: playfield_active
@@ -291,8 +329,6 @@ matrix_lights:
     number: L56
   l_40k_bonus:
     number: L57
-  l_2k_bonus:
-    number: L58
   l_4k_bonus:
     number: L61
   l_6k_bonus:

@@ -1,0 +1,113 @@
+#config_version=4
+mode:
+  start_events: game_starting
+  stop_events: game_ending
+  code: poker.poker
+  priority: 200
+
+light_player:
+  hearts_eject_solid:
+    l_ace_hearts: ff
+
+  club_eject_solid:
+    l_ace_clubs: ff
+
+  spade_eject_solid:
+    l_ace_spades: ff
+
+  extra_ball_solid:
+    l_extra_ball: ff
+
+  extra_ball_off:
+    l_extra_ball: 0
+
+  special_lit:
+    l_left_special: ff
+    l_right_special: ff
+
+  special_off:
+    l_right_special: 0
+    l_left_special: 0
+
+  poker_light_clear:
+    l_p_light: 0
+    l_o_light: 0
+    l_k_light: 0
+    l_e_light: 0
+    l_r_light: 0
+
+  poker_light_1:
+    l_p_light: ff
+    l_o_light: 0
+    l_k_light: 0
+    l_e_light: 0
+    l_r_light: 0
+
+  poker_light_2:
+    l_p_light: ff
+    l_o_light: ff
+    l_k_light: 0
+    l_e_light: 0
+    l_r_light: 0
+
+  poker_light_3:
+    l_p_light: ff
+    l_o_light: ff
+    l_k_light: ff
+    l_e_light: 0
+    l_r_light: 0
+
+  poker_light_4:
+    l_p_light: ff
+    l_o_light: ff
+    l_k_light: ff
+    l_e_light: ff
+    l_r_light: 0
+
+  poker_light_5:
+    l_p_light: ff
+    l_o_light: ff
+    l_k_light: ff
+    l_e_light: ff
+    l_r_light: ff
+
+show_player:
+  hearts_eject_flash:
+    heart_eject_flash_show:
+      speed: 2
+      loops: -1
+
+  hearts_eject_solid:
+    heart_eject_flash_show:
+      action: stop
+
+  club_eject_flash:
+    club_eject_flash_show:
+      speed: 2
+      loops: -1
+
+  club_eject_solid:
+    club_eject_flash_show:
+      action: stop
+
+  spade_eject_flash:
+    spade_eject_flash_show:
+      speed: 2
+      loops: -1
+
+  spade_eject_solid:
+    spade_eject_flash_show:
+      action: stop
+
+  extra_ball_flash:
+    extra_ball_flash_show:
+      speed: 2
+      loops: -1
+
+  extra_ball_off:
+    extra_ball_flash_show:
+      action: stop
+
+  extra_ball_solid:
+    extra_ball_flash_show:
+      action: stop

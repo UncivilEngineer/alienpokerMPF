@@ -1,0 +1,13 @@
+#show_version=4
+- duration: 2
+  lights:
+    l_left_jet_bumper: 0
+    l_center_jet_bumper: 0
+    l_right_jet_bumper: 0
+    l_bottom_jet_bumper: 0
+- duration: 2
+  lights:
+    l_left_jet_bumper: ff
+    l_center_jet_bumper: ff
+    l_right_jet_bumper: ff
+    l_bottom_jet_bumper: ff

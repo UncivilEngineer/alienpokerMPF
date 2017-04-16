@@ -1,0 +1,1000 @@
+2017-04-08 21:52:23,772 : INFO : kivy : Factory: 179 symbols loaded
+2017-04-08 21:52:23,776 : DEBUG : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2017-04-08 21:52:23,922 : DEBUG : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2017-04-08 21:52:23,922 : DEBUG : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2017-04-08 21:52:23,937 : INFO : kivy : Image: Providers: img_tex, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2017-04-08 21:52:23,938 : DEBUG : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2017-04-08 21:52:23,938 : DEBUG : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2017-04-08 21:52:24,004 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2017-04-08 21:52:24,005 : INFO : kivy : Video: Provider: gstplayer
+2017-04-08 21:52:24,047 : INFO : kivy : Loading MPF-MC controller
+2017-04-08 21:52:24,048 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.32.12
+2017-04-08 21:52:24,048 : INFO : mpfmc : Machine path: C:\Users\pinball\alienpoker
+2017-04-08 21:52:24,049 : INFO : mpfmc : Starting clock at 30.0Hz
+2017-04-08 21:52:24,050 : DEBUG : Events : Registered ModeController._load_modes as a handler for 'init_phase_2', priority: 1, kwargs: {}
+2017-04-08 21:52:24,052 : DEBUG : Events : Registered Animation.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:24,053 : DEBUG : Events : Registered WidgetStyle.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:24,054 : DEBUG : Events : Registered Slide.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:24,068 : INFO : kivy : Text: Provider: sdl2
+2017-04-08 21:52:24,080 : DEBUG : Events : Registered Widget.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:24,466 : DEBUG : Events : Registered ConfigProcessor._init as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:24,495 : INFO : kivy : OSC: using <thread> for socket
+2017-04-08 21:52:24,504 : INFO : kivy : Window: Provider: sdl2
+2017-04-08 21:52:24,593 : INFO : kivy : GL: GLEW initialization succeeded
+2017-04-08 21:52:24,594 : INFO : kivy : GL: OpenGL version <b'3.1.0 - Build 8.15.10.2476'>
+2017-04-08 21:52:24,594 : INFO : kivy : GL: OpenGL vendor <b'Intel'>
+2017-04-08 21:52:24,595 : INFO : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics Family'>
+2017-04-08 21:52:24,595 : INFO : kivy : GL: OpenGL parsed version: 3, 1
+2017-04-08 21:52:24,595 : INFO : kivy : GL: Shading version <b'1.40  - Intel Build 8.15.10.2476'>
+2017-04-08 21:52:24,596 : INFO : kivy : GL: Texture max size <8192>
+2017-04-08 21:52:24,596 : INFO : kivy : GL: Texture max units <16>
+2017-04-08 21:52:24,656 : INFO : kivy : Shader: fragment shader: <b'No errors.'>
+2017-04-08 21:52:24,657 : DEBUG : kivy : Shader: Fragment compiled successfully
+2017-04-08 21:52:24,657 : INFO : kivy : Shader: vertex shader: <b'No errors.'>
+2017-04-08 21:52:24,657 : DEBUG : kivy : Shader: Vertex compiled successfully
+2017-04-08 21:52:24,662 : INFO : kivy : Shader: program: <No errors.>
+2017-04-08 21:52:24,662 : DEBUG : kivy : ImageSDL2: Load <c:\python34\lib\site-packages\kivy\data\glsl\default.png>
+2017-04-08 21:52:24,664 : INFO : kivy : Window: auto add sdl2 input provider
+2017-04-08 21:52:24,665 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2017-04-08 21:52:24,670 : DEBUG : mpfmc : Machine path: C:\Users\pinball\alienpoker
+2017-04-08 21:52:24,670 : DEBUG : kivy : Resource: add <C:\Users\pinball\alienpoker\fonts> in path list
+2017-04-08 21:52:24,671 : DEBUG : kivy : Resource: add <c:\python34\lib\site-packages\mpfmc\fonts> in path list
+2017-04-08 21:52:24,671 : DEBUG : SoundSystem : Loading the Sound System
+2017-04-08 21:52:24,671 : INFO : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2017-04-08 21:52:24,959 : INFO : AudioInterface : Initialized 0.32.5
+2017-04-08 21:52:24,960 : DEBUG : AudioInterface : Loaded SDL 2.0.5
+2017-04-08 21:52:24,960 : DEBUG : AudioInterface : Loaded GStreamer 1.10.2.0
+2017-04-08 21:52:24,960 : DEBUG : AudioInterface : Loaded GLib 2.48.1
+2017-04-08 21:52:24,960 : DEBUG : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2017-04-08 21:52:24,960 : DEBUG : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2017-04-08 21:52:24,961 : DEBUG : Track : Allocated track audio buffer (4096 bytes)
+2017-04-08 21:52:24,961 : DEBUG : AudioInterface : The 'default' standard track has successfully been created.
+2017-04-08 21:52:24,961 : INFO : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2017-04-08 21:52:24,961 : DEBUG : AudioInterface : Enabling audio playback
+2017-04-08 21:52:24,962 : DEBUG : Events : Registered SoundSystem.master_volume_increase as a handler for 'master_volume_increase', priority: 1, kwargs: {}
+2017-04-08 21:52:24,962 : DEBUG : Events : Registered SoundSystem.master_volume_decrease as a handler for 'master_volume_decrease', priority: 1, kwargs: {}
+2017-04-08 21:52:24,962 : DEBUG : Events : Registered SoundSystem.shutdown as a handler for 'shutdown', priority: 1, kwargs: {}
+2017-04-08 21:52:24,962 : DEBUG : AssetManager : Initializing...
+2017-04-08 21:52:24,963 : DEBUG : Events : Registered ThreadedAssetManager._create_assets as a handler for 'init_phase_3', priority: 1, kwargs: {'force_assets_load': False}
+2017-04-08 21:52:24,963 : DEBUG : Events : Registered ThreadedAssetManager._bcp_client_asset_load as a handler for 'assets_to_load', priority: 1, kwargs: {}
+2017-04-08 21:52:24,964 : DEBUG : Events : Registered BcpProcessor._start_socket_thread as a handler for 'init_done', priority: 1, kwargs: {}
+2017-04-08 21:52:24,964 : DEBUG : Events : Registered BcpProcessor._client_connected as a handler for 'client_connected', priority: 1, kwargs: {}
+2017-04-08 21:52:24,965 : DEBUG : Events : Registered MpfMc._create_physical_dmds as a handler for 'client_connected', priority: 1, kwargs: {}
+2017-04-08 21:52:24,965 : DEBUG : Events : Registered MpfMc.player_start_turn as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:24,965 : DEBUG : kivy : App: Loading kv <c:\python34\lib\site-packages\mpfmc\core\mpfmc.kv>
+2017-04-08 21:52:24,965 : DEBUG : kivy : App: kv <c:\python34\lib\site-packages\mpfmc\core\mpfmc.kv> not found
+2017-04-08 21:52:24,966 : DEBUG : kivy : Base: Create provider from mouse
+2017-04-08 21:52:24,966 : DEBUG : kivy : Base: Create provider from wm_touch
+2017-04-08 21:52:24,966 : DEBUG : kivy : Base: Create provider from wm_pen
+2017-04-08 21:52:24,966 : INFO : kivy : Base: Start application main loop
+2017-04-08 21:52:24,998 : DEBUG : Events : ^^^^ Posted event 'slide_window_blank_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:24,999 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:24,999 : DEBUG : Events : slide_window_blank_created, None, None, {}
+2017-04-08 21:52:24,999 : DEBUG : Events : =========================================
+2017-04-08 21:52:24,999 : DEBUG : Events : ^^^^ Posted event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,000 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,000 : DEBUG : Events : slide_window_blank_created, None, None, {}
+2017-04-08 21:52:25,000 : DEBUG : Events : display_window_ready, None, None, {}
+2017-04-08 21:52:25,000 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,000 : DEBUG : Events : ^^^^ Processing event 'slide_window_blank_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,001 : DEBUG : Events : vvvv Finished event 'slide_window_blank_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,001 : DEBUG : Events : ^^^^ Processing event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,001 : DEBUG : Events : vvvv Finished event 'display_window_ready'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,021 : DEBUG : Events : ^^^^ Posted event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,021 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,022 : DEBUG : Events : display_window_initialized, None, None, {}
+2017-04-08 21:52:25,022 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,022 : DEBUG : Events : ^^^^ Processing event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,022 : DEBUG : Events : vvvv Finished event 'display_window_initialized'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,055 : DEBUG : Events : ^^^^ Posted event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,055 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,055 : DEBUG : Events : displays_initialized, None, None, {}
+2017-04-08 21:52:25,056 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,056 : DEBUG : Events : ^^^^ Processing event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,056 : DEBUG : Events : vvvv Finished event 'displays_initialized'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,064 : DEBUG : Events : Registered McSoundPlayer._initialize_in_mode as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,064 : DEBUG : Events : Registered McSoundPlayer._initialise_system_wide as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,066 : DEBUG : Events : Registered McWidgetPlayer._initialize_in_mode as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,066 : DEBUG : Events : Registered McWidgetPlayer._initialise_system_wide as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,067 : DEBUG : Events : Registered McSlidePlayer._initialize_in_mode as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,068 : DEBUG : Events : Registered McSlidePlayer._initialise_system_wide as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,074 : DEBUG : Events : Registered McTrackPlayer._initialize_in_mode as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,074 : DEBUG : Events : Registered McTrackPlayer._initialise_system_wide as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2017-04-08 21:52:25,074 : DEBUG : Events : ^^^^ Posted event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,074 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,075 : DEBUG : Events : init_phase_1, None, None, {}
+2017-04-08 21:52:25,075 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,075 : DEBUG : Events : ^^^^ Processing event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,075 : DEBUG : Events : ['<bound', 'method', 'Animation.create_entries_from_root_config', 'of', '{}>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,075 : DEBUG : Events : ['<bound', 'method', 'WidgetStyle.create_entries_from_root_config', 'of', '{}>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,075 : DEBUG : Events : ['<bound', 'method', 'Slide.create_entries_from_root_config', 'of', "{'window_blank':", "{'background_color':", '[0.0,', '0.0,', '0.0,', '1.0],', "'debug':", 'False,', "'expire':", 'None,', "'tags':", '[],', "'opacity':", '1.0}}>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,080 : DEBUG : Events : ['<bound', 'method', 'Widget.create_entries_from_root_config', 'of', '{}>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,080 : DEBUG : Events : ['<bound', 'method', 'ConfigProcessor._init', 'of', '<mpfmc.core.config_processor.ConfigProcessor', 'object', 'at', '0x000000000379F358>>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,080 : DEBUG : Events : ['<bound', 'method', 'McSoundPlayer._initialize_in_mode', 'of', 'McConfigPlayer.sounds>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,080 : DEBUG : Events : ['<bound', 'method', 'McSoundPlayer._initialise_system_wide', 'of', 'McConfigPlayer.sounds>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,081 : DEBUG : Events : Registered McSoundPlayer.play_from_trigger as a handler for 'sounds_play', priority: 1, kwargs: {}
+2017-04-08 21:52:25,081 : DEBUG : Events : Registered McSoundPlayer.clear_from_trigger as a handler for 'sounds_clear', priority: 1, kwargs: {}
+2017-04-08 21:52:25,081 : DEBUG : Events : ['<bound', 'method', 'McWidgetPlayer._initialize_in_mode', 'of', 'McConfigPlayer.widgets>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,081 : DEBUG : Events : ['<bound', 'method', 'McWidgetPlayer._initialise_system_wide', 'of', 'McConfigPlayer.widgets>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,082 : DEBUG : Events : Registered McWidgetPlayer.play_from_trigger as a handler for 'widgets_play', priority: 1, kwargs: {}
+2017-04-08 21:52:25,082 : DEBUG : Events : Registered McWidgetPlayer.clear_from_trigger as a handler for 'widgets_clear', priority: 1, kwargs: {}
+2017-04-08 21:52:25,082 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer._initialize_in_mode', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,082 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer._initialise_system_wide', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,083 : DEBUG : Events : Registered McSlidePlayer.config_play_callback as a handler for 'init_done', priority: 0, kwargs: {'settings': {'slides': {'welcome_slide': {'transition': None, 'action': 'play', 'show': True, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'transition_out': None, 'persist': False, 'target': None}}}, 'calling_context': 'init_done', 'mode': None}
+2017-04-08 21:52:25,083 : DEBUG : Events : Registered McSlidePlayer.play_from_trigger as a handler for 'slides_play', priority: 1, kwargs: {}
+2017-04-08 21:52:25,084 : DEBUG : Events : Registered McSlidePlayer.clear_from_trigger as a handler for 'slides_clear', priority: 1, kwargs: {}
+2017-04-08 21:52:25,084 : DEBUG : Events : ['<bound', 'method', 'McTrackPlayer._initialize_in_mode', 'of', 'McConfigPlayer.tracks>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,084 : DEBUG : Events : ['<bound', 'method', 'McTrackPlayer._initialise_system_wide', 'of', 'McConfigPlayer.tracks>'] (priority: 1) responding to event 'init_phase_1' with args {}
+2017-04-08 21:52:25,084 : DEBUG : Events : Registered McTrackPlayer.play_from_trigger as a handler for 'tracks_play', priority: 1, kwargs: {}
+2017-04-08 21:52:25,084 : DEBUG : Events : Registered McTrackPlayer.clear_from_trigger as a handler for 'tracks_clear', priority: 1, kwargs: {}
+2017-04-08 21:52:25,085 : DEBUG : Events : vvvv Finished event 'init_phase_1'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,085 : DEBUG : Events : ^^^^ Posted event 'mc_ready'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,085 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,085 : DEBUG : Events : mc_ready, None, None, {}
+2017-04-08 21:52:25,085 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,085 : DEBUG : Events : ^^^^ Processing event 'mc_ready'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,085 : DEBUG : Events : vvvv Finished event 'mc_ready'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,086 : DEBUG : Events : ^^^^ Posted event 'init_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,086 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,086 : DEBUG : Events : init_phase_2, None, None, {}
+2017-04-08 21:52:25,086 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,086 : DEBUG : Events : ^^^^ Processing event 'init_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,086 : DEBUG : Events : ['<bound', 'method', 'ModeController._load_modes', 'of', '<mpfmc.core.mode_controller.ModeController', 'object', 'at', '0x0000000004ACB898>>'] (priority: 1) responding to event 'init_phase_2' with args {}
+2017-04-08 21:52:25,088 : DEBUG : ModeController : Found MPF Mode folders: {'bonus': 'bonus', 'tilt': 'tilt', 'game': 'game', 'high_score': 'high_score', 'service': 'service', 'attract': 'attract', 'carousel': 'carousel', 'credits': 'credits'}
+2017-04-08 21:52:25,089 : DEBUG : ModeController : Found Machine-specific Mode folders: {'jetbumpers': 'jetbumpers', 'attract': 'attract', 'base': 'base'}
+2017-04-08 21:52:25,131 : DEBUG : Events : vvvv Finished event 'init_phase_2'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,131 : DEBUG : Events : ^^^^ Posted event 'init_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,131 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,131 : DEBUG : Events : init_phase_3, None, None, {}
+2017-04-08 21:52:25,132 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,132 : DEBUG : Events : ^^^^ Processing event 'init_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,132 : DEBUG : Events : ['<bound', 'method', 'ThreadedAssetManager._create_assets', 'of', '<mpfmc.core.assets.ThreadedAssetManager', 'object', 'at', '0x0000000004B9A748>>'] (priority: 1) responding to event 'init_phase_3' with args {'force_assets_load': False}
+2017-04-08 21:52:25,132 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\images
+2017-04-08 21:52:25,132 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\videos
+2017-04-08 21:52:25,132 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\sounds
+2017-04-08 21:52:25,132 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\jetbumpers\images
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\jetbumpers\videos
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\jetbumpers\sounds
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\attract\images
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\attract\videos
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\attract\sounds
+2017-04-08 21:52:25,133 : DEBUG : AssetManager : Processing assets from base folder: c:\python34\lib\site-packages\mpf\modes\game\images
+2017-04-08 21:52:25,134 : DEBUG : AssetManager : Processing assets from base folder: c:\python34\lib\site-packages\mpf\modes\game\videos
+2017-04-08 21:52:25,134 : DEBUG : AssetManager : Processing assets from base folder: c:\python34\lib\site-packages\mpf\modes\game\sounds
+2017-04-08 21:52:25,134 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\base\images
+2017-04-08 21:52:25,134 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\base\videos
+2017-04-08 21:52:25,134 : DEBUG : AssetManager : Processing assets from base folder: C:\Users\pinball\alienpoker\modes\base\sounds
+2017-04-08 21:52:25,134 : DEBUG : Events : vvvv Finished event 'init_phase_3'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,134 : DEBUG : Events : ^^^^ Posted event 'init_phase_4'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,135 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,135 : DEBUG : Events : init_phase_4, None, None, {}
+2017-04-08 21:52:25,135 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,135 : DEBUG : Events : ^^^^ Processing event 'init_phase_4'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,135 : DEBUG : Events : vvvv Finished event 'init_phase_4'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,135 : DEBUG : Events : ^^^^ Posted event 'init_phase_5'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,135 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,135 : DEBUG : Events : init_phase_5, None, None, {}
+2017-04-08 21:52:25,135 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,135 : DEBUG : Events : ^^^^ Processing event 'init_phase_5'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,135 : DEBUG : Events : vvvv Finished event 'init_phase_5'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,136 : DEBUG : Events : ^^^^ Posted event 'init_done'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,136 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,136 : DEBUG : Events : init_done, None, None, {}
+2017-04-08 21:52:25,136 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,136 : DEBUG : Events : ^^^^ Processing event 'init_done'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,136 : DEBUG : Events : ['<bound', 'method', 'BcpProcessor._start_socket_thread', 'of', '<mpfmc.core.bcp_processor.BcpProcessor', 'object', 'at', '0x0000000004B9ACF8>>'] (priority: 1) responding to event 'init_done' with args {}
+2017-04-08 21:52:25,136 : INFO : MPF-MC BCP Server : Starting up on localhost port 5050
+2017-04-08 21:52:25,146 : INFO : MPF-MC BCP Server : Waiting for a connection...
+2017-04-08 21:52:25,146 : DEBUG : Events : Removing method BcpProcessor._start_socket_thread from event init_done
+2017-04-08 21:52:25,146 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.config_play_callback', 'of', 'McConfigPlayer.slides>'] (priority: 0) responding to event 'init_done' with args {'settings': {'slides': {'welcome_slide': {'transition': None, 'action': 'play', 'show': True, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'transition_out': None, 'persist': False, 'target': None}}}, 'calling_context': 'init_done', 'mode': None}
+2017-04-08 21:52:25,146 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {}}, 'slide_name': 'welcome_slide', 's': {'action': 'play', 'transition': None, 'expire': None, 'show': True, 'slide': None, 'calling_context': 'init_done', 'force': False, 'target': None, 'transition_out': None, 'persist': False, 'priority': 0}, 'target_name': 'default', 'key': '_global.slide_player'}
+2017-04-08 21:52:25,212 : DEBUG : kivy : Resource: add <C:\Windows\Fonts> in path list
+2017-04-08 21:52:25,214 : DEBUG : kivy : Resource: add <c:\python34\lib\site-packages\kivy\data\fonts> in path list
+2017-04-08 21:52:25,215 : INFO : kivy : GL: NPOT texture support is available
+2017-04-08 21:52:25,216 : DEBUG : Events : ^^^^ Posted event 'slide_welcome_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,217 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,217 : DEBUG : Events : slide_welcome_slide_created, None, None, {}
+2017-04-08 21:52:25,217 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,217 : DEBUG : Events : vvvv Finished event 'init_done'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : ^^^^ Processing event 'slide_welcome_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : vvvv Finished event 'slide_welcome_slide_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,218 : DEBUG : Events : mc_reset_phase_1, None, None, {}
+2017-04-08 21:52:25,218 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,218 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_1'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,218 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,219 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,219 : DEBUG : Events : mc_reset_phase_2, None, None, {}
+2017-04-08 21:52:25,219 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,219 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,219 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_2'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,219 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,219 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,219 : DEBUG : Events : mc_reset_phase_3, None, None, {}
+2017-04-08 21:52:25,219 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,219 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,220 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_3'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,220 : DEBUG : Events : ^^^^ Posted event 'client_disconnected'. Type: None, Callback: None, Args: {'port': 5050, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,220 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,220 : DEBUG : Events : client_disconnected, None, None, {'port': 5050, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,220 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,221 : DEBUG : Events : ^^^^ Posted event 'slide_welcome_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,221 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,221 : DEBUG : Events : client_disconnected, None, None, {'port': 5050, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,221 : DEBUG : Events : slide_welcome_slide_active, None, None, {}
+2017-04-08 21:52:25,221 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,230 : DEBUG : Events : ^^^^ Processing event 'client_disconnected'. Type: None, Callback: None, Args: {'port': 5050, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,230 : DEBUG : Events : vvvv Finished event 'client_disconnected'. Type: None. Callback: None. Args: {'port': 5050, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,230 : DEBUG : Events : ^^^^ Processing event 'slide_welcome_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,230 : DEBUG : Events : vvvv Finished event 'slide_welcome_slide_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,493 : INFO : MPF-MC BCP Server : Received connection from: 127.0.0.1:53047
+2017-04-08 21:52:25,495 : DEBUG : MPF-MC BCP Server : Received "hello?version=1.0&controller_version=0.32.7&controller_name=Mission%20Pinball%20Framework"
+2017-04-08 21:52:25,520 : DEBUG : Events : ^^^^ Posted event 'client_connected'. Type: None, Callback: None, Args: {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,520 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,520 : DEBUG : Events : client_connected, None, None, {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,521 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,549 : DEBUG : Events : ^^^^ Processing event 'client_connected'. Type: None, Callback: None, Args: {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,549 : DEBUG : Events : ['<bound', 'method', 'BcpProcessor._client_connected', 'of', '<mpfmc.core.bcp_processor.BcpProcessor', 'object', 'at', '0x0000000004B9ACF8>>'] (priority: 1) responding to event 'client_connected' with args {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,550 : DEBUG : Events : ['<bound', 'method', 'MpfMc._create_physical_dmds', 'of', '<mpfmc.core.mc.MpfMc', 'object', 'at', '0x0000000004AA5EE8>>'] (priority: 1) responding to event 'client_connected' with args {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,550 : DEBUG : Events : vvvv Finished event 'client_connected'. Type: None. Callback: None. Args: {'port': 53047, 'host': '127.0.0.1'}
+2017-04-08 21:52:25,611 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=int:0&name=player1_score"
+2017-04-08 21:52:25,617 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=FREE%20PLAY&name=credits_string"
+2017-04-08 21:52:25,622 : DEBUG : MPF-MC BCP Server : Received "trigger?name=init_done"
+2017-04-08 21:52:25,622 : DEBUG : MPF-MC BCP Server : Received "reset"
+2017-04-08 21:52:25,629 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:10&name=attract"
+2017-04-08 21:52:25,632 : DEBUG : MPF-MC BCP Server : Received "trigger?json={"settings": {"title_slide": {"force": false, "widgets": [{"type": "text", "key": null, "color": [1.0, 0.0, 0.0, 1], "opacity": 1.0, "anchor_y": null, "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "font_size", "color"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "The Mission Pinball Framework", "y": null, "adjust_bottom": null, "style": null, "font_size": 50, "adjust_left": null}, {"type": "text", "key": null, "color": [1.0, 1.0, 1.0, 1.0], "opacity": 1.0, "anchor_y": "bottom", "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "font_size", "anchor_y", "y"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "and", "y": "100", "adjust_bottom": null, "style": null, "font_size": 50, "adjust_left": null}, {"type": "text", "key": null, "color": [1.0, 1.0, 1.0, 1], "opacity": 1.0, "anchor_y": "bottom", "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["type", "font_size", "color", "text", "y", "anchor_y"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "The Uncivil Engineer", "y": "10", "adjust_bottom": null, "style": null, "font_size": 75, "adjust_left": null}], "transition": {"type": "push", "duration": 1.0, "easing": "out_quad", "direction": "left"}, "action": "play", "priority": null, "slide": null, "show": true, "target": null, "persist": false, "expire": null}}, "priority": 10, "name": "slides_play", "context": "show_1"}"
+2017-04-08 21:52:25,636 : DEBUG : mpfmc : Setting machine_var 'player1_score' to: 0, (prior: None, change: True)
+2017-04-08 21:52:25,636 : DEBUG : Events : ^^^^ Posted event 'machine_var_player1_score'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,636 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,636 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,636 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,637 : DEBUG : mpfmc : Setting machine_var 'credits_string' to: FREE PLAY, (prior: None, change: True)
+2017-04-08 21:52:25,637 : DEBUG : Events : ^^^^ Posted event 'machine_var_credits_string'. Type: None, Callback: None, Args: {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,637 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,637 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,637 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,637 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,637 : DEBUG : Events : ^^^^ Posted event 'init_done'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,637 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,637 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,638 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,638 : DEBUG : Events : init_done, None, None, {}
+2017-04-08 21:52:25,638 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,638 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,638 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,638 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,638 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,638 : DEBUG : Events : init_done, None, None, {}
+2017-04-08 21:52:25,638 : DEBUG : Events : mc_reset_phase_1, None, None, {}
+2017-04-08 21:52:25,638 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,639 : DEBUG : Events : ^^^^ Processing event 'machine_var_player1_score'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,639 : DEBUG : Events : vvvv Finished event 'machine_var_player1_score'. Type: None. Callback: None. Args: {'value': 0, 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,639 : DEBUG : Events : ^^^^ Processing event 'machine_var_credits_string'. Type: None, Callback: None, Args: {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,639 : DEBUG : Events : vvvv Finished event 'machine_var_credits_string'. Type: None. Callback: None. Args: {'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2017-04-08 21:52:25,639 : DEBUG : Events : ^^^^ Processing event 'init_done'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,639 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.config_play_callback', 'of', 'McConfigPlayer.slides>'] (priority: 0) responding to event 'init_done' with args {'settings': {'slides': {'welcome_slide': {'transition': None, 'action': 'play', 'show': True, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'transition_out': None, 'persist': False, 'target': None}}}, 'calling_context': 'init_done', 'mode': None}
+2017-04-08 21:52:25,639 : DEBUG : Events : Removing method McSlidePlayer._add_slide_to_target_when_active from event display_default_ready
+2017-04-08 21:52:25,639 : DEBUG : Events : Removing event display_default_ready since there are no more handlers registered for it
+2017-04-08 21:52:25,640 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {'welcome_slide': EventHandlerKey(key=UUID('7f75963d-2fc6-4234-b728-a4bad030ebb7'), event='display_default_ready')}}, 'slide_name': 'welcome_slide', 's': {'action': 'play', 'transition': None, 'expire': None, 'show': True, 'slide': None, 'calling_context': 'init_done', 'force': False, 'target': None, 'transition_out': None, 'persist': False, 'priority': 0}, 'target_name': 'default', 'key': '_global.slide_player'}
+2017-04-08 21:52:25,640 : DEBUG : Events : vvvv Finished event 'init_done'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,640 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,640 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_1'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,641 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,641 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,641 : DEBUG : Events : mc_reset_phase_2, None, None, {}
+2017-04-08 21:52:25,641 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,641 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,641 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_2'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,641 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,641 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,641 : DEBUG : Events : mc_reset_phase_3, None, None, {}
+2017-04-08 21:52:25,642 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,642 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,642 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_3'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,642 : DEBUG : Mode.attract : Mode Start. Priority: 10
+2017-04-08 21:52:25,642 : DEBUG : Events : ^^^^ Posted event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'title_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:25,643 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,643 : DEBUG : Events : slides_play, None, None, {'settings': {'title_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:25,643 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,666 : DEBUG : Events : ^^^^ Processing event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'title_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:25,666 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.play_from_trigger', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'slides_play' with args {'settings': {'title_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:25,667 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {}}, 'slide_name': 'title_slide', 's': {'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'persist': False, 'slide': None, 'force': False, 'target': None, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}], 'priority': 10}, 'target_name': 'default', 'key': 'show_1.slide_player'}
+2017-04-08 21:52:25,672 : DEBUG : Events : ^^^^ Posted event 'slide_title_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,672 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,673 : DEBUG : Events : slide_title_slide_created, None, None, {}
+2017-04-08 21:52:25,673 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,673 : DEBUG : Events : vvvv Finished event 'slides_play'. Type: None. Callback: None. Args: {'settings': {'title_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'The Mission Pinball Framework', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.0, 0.0, 1], 'font_size': 50, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'anchor_y', 'y'], 'text': 'and', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '100', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'The Uncivil Engineer', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:25,674 : DEBUG : Events : ^^^^ Processing event 'slide_title_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,674 : DEBUG : Events : vvvv Finished event 'slide_title_slide_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:25,674 : DEBUG : Events : ^^^^ Posted event 'slide_title_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,675 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:25,675 : DEBUG : Events : slide_title_slide_active, None, None, {}
+2017-04-08 21:52:25,675 : DEBUG : Events : =========================================
+2017-04-08 21:52:25,696 : DEBUG : Events : ^^^^ Processing event 'slide_title_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:25,696 : DEBUG : Events : vvvv Finished event 'slide_title_slide_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:28,621 : DEBUG : MPF-MC BCP Server : Received "trigger?json={"settings": {"present_slide": {"force": false, "widgets": [{"type": "text", "key": null, "color": [1.0, 1.0, 1.0, 1], "opacity": 1.0, "anchor_y": null, "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "font_size", "color"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "PRESENTS", "y": null, "adjust_bottom": null, "style": null, "font_size": 75, "adjust_left": null}], "transition": {"type": "push", "duration": 1.0, "easing": "out_quad", "direction": "right"}, "action": "play", "priority": null, "slide": null, "show": true, "target": null, "persist": false, "expire": null}}, "priority": 10, "name": "slides_play", "context": "show_1"}"
+2017-04-08 21:52:28,625 : DEBUG : Events : ^^^^ Posted event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'present_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:28,625 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:28,626 : DEBUG : Events : slides_play, None, None, {'settings': {'present_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:28,627 : DEBUG : Events : =========================================
+2017-04-08 21:52:28,654 : DEBUG : Events : ^^^^ Processing event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'present_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:28,655 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.play_from_trigger', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'slides_play' with args {'settings': {'present_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:28,657 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {'title_slide': EventHandlerKey(key=UUID('770294b2-796d-4155-af6d-22287cc71d3b'), event='display_default_ready')}}, 'slide_name': 'present_slide', 's': {'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'persist': False, 'slide': None, 'force': False, 'target': None, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}], 'priority': 10}, 'target_name': 'default', 'key': 'show_1.slide_player'}
+2017-04-08 21:52:28,665 : DEBUG : Events : ^^^^ Posted event 'slide_present_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:28,667 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:28,667 : DEBUG : Events : slide_present_slide_created, None, None, {}
+2017-04-08 21:52:28,667 : DEBUG : Events : =========================================
+2017-04-08 21:52:28,669 : DEBUG : Events : vvvv Finished event 'slides_play'. Type: None. Callback: None. Args: {'settings': {'present_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_size', 'color'], 'text': 'PRESENTS', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:28,670 : DEBUG : Events : ^^^^ Processing event 'slide_present_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:28,670 : DEBUG : Events : vvvv Finished event 'slide_present_slide_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:28,672 : DEBUG : Events : ^^^^ Posted event 'slide_present_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:28,672 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:28,673 : DEBUG : Events : slide_present_slide_active, None, None, {}
+2017-04-08 21:52:28,673 : DEBUG : Events : =========================================
+2017-04-08 21:52:28,693 : DEBUG : Events : ^^^^ Processing event 'slide_present_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:28,694 : DEBUG : Events : vvvv Finished event 'slide_present_slide_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:31,623 : DEBUG : MPF-MC BCP Server : Received "trigger?json={"settings": {"name_slide": {"force": false, "widgets": [{"font_name": "DS-DIGI", "type": "text", "key": null, "color": [1.0, 0.6470588235294118, 0.0, 1], "opacity": 1.0, "anchor_y": null, "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "font_name", "font_size", "color"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "ALIEN POKER", "y": null, "adjust_bottom": null, "style": null, "font_size": 75, "adjust_left": null}, {"type": "text", "key": null, "color": [1.0, 1.0, 1.0, 1], "opacity": 1.0, "anchor_y": "bottom", "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["type", "font_size", "color", "text", "y", "anchor_y"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "P-ROC Edition", "y": "10", "adjust_bottom": null, "style": null, "font_size": 50, "adjust_left": null}], "transition": {"type": "push", "duration": 1.0, "easing": "out_quad", "direction": "left"}, "action": "play", "priority": null, "slide": null, "show": true, "target": null, "persist": false, "expire": null}}, "priority": 10, "name": "slides_play", "context": "show_1"}"
+2017-04-08 21:52:31,647 : DEBUG : Events : ^^^^ Posted event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'name_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:31,648 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:31,648 : DEBUG : Events : slides_play, None, None, {'settings': {'name_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:31,648 : DEBUG : Events : =========================================
+2017-04-08 21:52:31,675 : DEBUG : Events : ^^^^ Processing event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'name_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:31,676 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.play_from_trigger', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'slides_play' with args {'settings': {'name_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:31,678 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {'present_slide': EventHandlerKey(key=UUID('6e94636c-da74-454a-bc4b-2b92b1dee465'), event='display_default_ready'), 'title_slide': EventHandlerKey(key=UUID('770294b2-796d-4155-af6d-22287cc71d3b'), event='display_default_ready')}}, 'slide_name': 'name_slide', 's': {'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'persist': False, 'slide': None, 'force': False, 'target': None, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}], 'priority': 10}, 'target_name': 'default', 'key': 'show_1.slide_player'}
+2017-04-08 21:52:31,693 : DEBUG : Events : ^^^^ Posted event 'slide_name_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:31,694 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:31,695 : DEBUG : Events : slide_name_slide_created, None, None, {}
+2017-04-08 21:52:31,695 : DEBUG : Events : =========================================
+2017-04-08 21:52:31,701 : DEBUG : Events : vvvv Finished event 'slides_play'. Type: None. Callback: None. Args: {'settings': {'name_slide': {'persist': False, 'action': 'play', 'transition': {'type': 'push', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'left'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'font_name', 'font_size', 'color'], 'text': 'ALIEN POKER', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 0.6470588235294118, 0.0, 1], 'font_size': 75, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['type', 'font_size', 'color', 'text', 'y', 'anchor_y'], 'text': 'P-ROC Edition', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:31,701 : DEBUG : Events : ^^^^ Processing event 'slide_name_slide_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:31,701 : DEBUG : Events : vvvv Finished event 'slide_name_slide_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:31,702 : DEBUG : Events : ^^^^ Posted event 'slide_name_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:31,702 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:31,702 : DEBUG : Events : slide_name_slide_active, None, None, {}
+2017-04-08 21:52:31,702 : DEBUG : Events : =========================================
+2017-04-08 21:52:31,712 : DEBUG : Events : ^^^^ Processing event 'slide_name_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:31,712 : DEBUG : Events : vvvv Finished event 'slide_name_slide_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:34,628 : DEBUG : MPF-MC BCP Server : Received "trigger?json={"settings": {"press_start": {"force": false, "widgets": [{"type": "Text", "key": null, "color": [1.0, 1.0, 1.0, 1.0], "opacity": 1.0, "anchor_y": null, "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "animations"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": {"pre_show_slide": [{"value": ["0"], "repeat": false, "duration": 0.5, "property": ["opacity"], "timing": "after_previous", "easing": "linear"}, {"value": ["1"], "repeat": true, "duration": 0.5, "property": ["opacity"], "timing": "after_previous", "easing": "linear"}]}, "text": "PRESS START", "y": null, "adjust_bottom": null, "style": null, "font_size": 15, "adjust_left": null}, {"type": "Text", "key": null, "color": [0.0, 0.5019607843137255, 0.0, 1], "opacity": 1.0, "anchor_y": "bottom", "adjust_top": null, "anchor_x": null, "reset_animations_events": [], "x": null, "adjust_right": null, "min_digits": 0, "italic": false, "number_grouping": false, "_default_settings": ["text", "type", "color", "anchor_y", "y"], "valign": "middle", "bold": false, "expire": null, "z": 0, "halign": "center", "animations": null, "text": "FREE PLAY", "y": "10", "adjust_bottom": null, "style": null, "font_size": 15, "adjust_left": null}], "transition": {"type": "move_in", "duration": 1.0, "easing": "out_quad", "direction": "right"}, "action": "play", "priority": null, "slide": null, "show": true, "target": null, "persist": false, "expire": null}}, "priority": 10, "name": "slides_play", "context": "show_1"}"
+2017-04-08 21:52:34,648 : DEBUG : Events : ^^^^ Posted event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'press_start': {'persist': False, 'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:34,649 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:34,649 : DEBUG : Events : slides_play, None, None, {'settings': {'press_start': {'persist': False, 'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:34,650 : DEBUG : Events : =========================================
+2017-04-08 21:52:34,676 : DEBUG : Events : ^^^^ Processing event 'slides_play'. Type: None, Callback: None, Args: {'settings': {'press_start': {'persist': False, 'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:34,677 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.play_from_trigger', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'slides_play' with args {'settings': {'press_start': {'persist': False, 'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:34,680 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {'present_slide': EventHandlerKey(key=UUID('6e94636c-da74-454a-bc4b-2b92b1dee465'), event='display_default_ready'), 'title_slide': EventHandlerKey(key=UUID('770294b2-796d-4155-af6d-22287cc71d3b'), event='display_default_ready'), 'name_slide': EventHandlerKey(key=UUID('f30f4f7e-14fd-41b4-8f23-54cb696208df'), event='display_default_ready')}}, 'slide_name': 'press_start', 's': {'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'persist': False, 'slide': None, 'force': False, 'target': None, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'x': None, 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'valign': 'middle', 'min_digits': 0}], 'priority': 10}, 'target_name': 'default', 'key': 'show_1.slide_player'}
+2017-04-08 21:52:34,696 : DEBUG : Events : ^^^^ Posted event 'slide_press_start_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:34,697 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:34,698 : DEBUG : Events : slide_press_start_created, None, None, {}
+2017-04-08 21:52:34,698 : DEBUG : Events : =========================================
+2017-04-08 21:52:34,701 : DEBUG : Events : vvvv Finished event 'slides_play'. Type: None. Callback: None. Args: {'settings': {'press_start': {'persist': False, 'action': 'play', 'transition': {'type': 'move_in', 'duration': 1.0, 'easing': 'out_quad', 'direction': 'right'}, 'expire': None, 'priority': None, 'slide': None, 'force': False, 'show': True, 'widgets': [{'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': None, 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'animations'], 'text': 'PRESS START', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 15, 'type': 'Text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': {'pre_show_slide': [{'value': ['0'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': False, 'property': ['opacity'], 'easing': 'linear'}, {'value': ['1'], 'duration': 0.5, 'timing': 'after_previous', 'repeat': True, 'property': ['opacity'], 'easing': 'linear'}]}, 'min_digits': 0}, {'adjust_top': None, 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': None, 'adjust_right': None, '_default_settings': ['text', 'type', 'color', 'anchor_y', 'y'], 'text': 'FREE PLAY', 'opacity': 1.0, 'expire': None, 'halign': 'center', 'x': None, 'valign': 'middle', 'adjust_bottom': None, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'font_size': 15, 'type': 'Text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'target': None}}, 'priority': 10, 'context': 'show_1'}
+2017-04-08 21:52:34,704 : DEBUG : Events : ^^^^ Processing event 'slide_press_start_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:34,704 : DEBUG : Events : vvvv Finished event 'slide_press_start_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:34,705 : DEBUG : Events : ^^^^ Posted event 'slide_press_start_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:34,709 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:34,709 : DEBUG : Events : slide_press_start_active, None, None, {}
+2017-04-08 21:52:34,709 : DEBUG : Events : =========================================
+2017-04-08 21:52:34,719 : DEBUG : Events : ^^^^ Processing event 'slide_press_start_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:34,720 : DEBUG : Events : vvvv Finished event 'slide_press_start_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,409 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:20&name=game"
+2017-04-08 21:52:35,412 : DEBUG : MPF-MC BCP Server : Received "mode_stop?name=attract"
+2017-04-08 21:52:35,413 : DEBUG : MPF-MC BCP Server : Received "trigger?name=slides_clear&context=show_1"
+2017-04-08 21:52:35,428 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:0&prev_value=int:0&name=jetlevel&player_num=int:1&change=int:0"
+2017-04-08 21:52:35,428 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:0&prev_value=int:0&name=jetcount&player_num=int:1&change=int:0"
+2017-04-08 21:52:35,430 : DEBUG : Events : ^^^^ Posted event 'game_started'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,430 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,430 : DEBUG : Events : game_started, None, None, {}
+2017-04-08 21:52:35,431 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,431 : DEBUG : Mode.game : Mode Start. Priority: 20
+2017-04-08 21:52:35,431 : DEBUG : Mode.attract : Mode Stop.
+2017-04-08 21:52:35,431 : DEBUG : Events : ^^^^ Posted event 'slides_clear'. Type: None, Callback: None, Args: {'context': 'show_1'}
+2017-04-08 21:52:35,431 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,431 : DEBUG : Events : game_started, None, None, {}
+2017-04-08 21:52:35,431 : DEBUG : Events : slides_clear, None, None, {'context': 'show_1'}
+2017-04-08 21:52:35,431 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,435 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=int:0&prev_value=int:0&name=player1_score&change=int:0"
+2017-04-08 21:52:35,445 : DEBUG : MPF-MC BCP Server : Received "player_added?player_num=int:1"
+2017-04-08 21:52:35,445 : DEBUG : MPF-MC BCP Server : Received "trigger?player=%3CPlayer%201%3E&name=player_add_success&num=int:1"
+2017-04-08 21:52:35,448 : DEBUG : MPF-MC BCP Server : Received "trigger?player=%3CPlayer%201%3E&name=player_turn_start&number=int:1"
+2017-04-08 21:52:35,451 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1&prev_value=int:0&name=ball&player_num=int:1&change=int:1"
+2017-04-08 21:52:35,457 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:150&name=jetbumpers"
+2017-04-08 21:52:35,459 : DEBUG : Events : ^^^^ Processing event 'game_started'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,459 : DEBUG : Events : vvvv Finished event 'game_started'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,459 : DEBUG : Events : ^^^^ Processing event 'slides_clear'. Type: None, Callback: None, Args: {'context': 'show_1'}
+2017-04-08 21:52:35,459 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.clear_from_trigger', 'of', 'McConfigPlayer.slides>'] (priority: 1) responding to event 'slides_clear' with args {'context': 'show_1'}
+2017-04-08 21:52:35,460 : DEBUG : Events : Removing method McSlidePlayer._add_slide_to_target_when_active from event display_default_ready
+2017-04-08 21:52:35,460 : DEBUG : Events : ^^^^ Posted event 'slide_present_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,460 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,460 : DEBUG : Events : slide_present_slide_removed, None, None, {}
+2017-04-08 21:52:35,460 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,461 : DEBUG : Events : Removing method McSlidePlayer._add_slide_to_target_when_active from event display_default_ready
+2017-04-08 21:52:35,461 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:20&prev_value=int:0&name=jetlevel1_count&player_num=int:1&change=int:20"
+2017-04-08 21:52:35,461 : DEBUG : Events : ^^^^ Posted event 'slide_press_start_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,461 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,461 : DEBUG : Events : slide_present_slide_removed, None, None, {}
+2017-04-08 21:52:35,462 : DEBUG : Events : slide_press_start_removed, None, None, {}
+2017-04-08 21:52:35,462 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,463 : DEBUG : Events : Removing method McSlidePlayer._add_slide_to_target_when_active from event display_default_ready
+2017-04-08 21:52:35,463 : DEBUG : Events : ^^^^ Posted event 'slide_title_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,463 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,463 : DEBUG : Events : slide_present_slide_removed, None, None, {}
+2017-04-08 21:52:35,463 : DEBUG : Events : slide_press_start_removed, None, None, {}
+2017-04-08 21:52:35,464 : DEBUG : Events : slide_title_slide_removed, None, None, {}
+2017-04-08 21:52:35,464 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,464 : DEBUG : Events : Removing method McSlidePlayer._add_slide_to_target_when_active from event display_default_ready
+2017-04-08 21:52:35,464 : DEBUG : Events : ^^^^ Posted event 'slide_name_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,464 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,464 : DEBUG : Events : slide_present_slide_removed, None, None, {}
+2017-04-08 21:52:35,464 : DEBUG : Events : slide_press_start_removed, None, None, {}
+2017-04-08 21:52:35,465 : DEBUG : Events : slide_title_slide_removed, None, None, {}
+2017-04-08 21:52:35,465 : DEBUG : Events : slide_name_slide_removed, None, None, {}
+2017-04-08 21:52:35,465 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,465 : DEBUG : Events : vvvv Finished event 'slides_clear'. Type: None. Callback: None. Args: {'context': 'show_1'}
+2017-04-08 21:52:35,466 : DEBUG : Events : ^^^^ Processing event 'slide_present_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,466 : DEBUG : Events : vvvv Finished event 'slide_present_slide_removed'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,466 : DEBUG : Events : ^^^^ Processing event 'slide_press_start_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,466 : DEBUG : Events : vvvv Finished event 'slide_press_start_removed'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,466 : DEBUG : Events : ^^^^ Processing event 'slide_title_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,467 : DEBUG : Events : vvvv Finished event 'slide_title_slide_removed'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,467 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:100&name=base"
+2017-04-08 21:52:35,467 : DEBUG : Events : ^^^^ Processing event 'slide_name_slide_removed'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,467 : DEBUG : Events : vvvv Finished event 'slide_name_slide_removed'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,468 : DEBUG : Player : Creating new player: Player 1. (player index '0')
+2017-04-08 21:52:35,468 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: <bound method Player._player_add_done of <Player 1>>, Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,468 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,468 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,469 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,469 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: None, Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,469 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,469 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,469 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,470 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,470 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,470 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,470 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,471 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,471 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,471 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,471 : DEBUG : Events : ^^^^ Posted event 'player_turn_start'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,471 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,472 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,472 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,472 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,472 : DEBUG : Events : player_turn_start, None, None, {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,472 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,472 : DEBUG : Player : Setting 'ball' to: 1, (prior: 0, change: 1)
+2017-04-08 21:52:35,472 : DEBUG : Events : ^^^^ Posted event 'player_ball'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,472 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,472 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,473 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,473 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,473 : DEBUG : Events : player_turn_start, None, None, {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,473 : DEBUG : Events : player_ball, None, None, {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,473 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,473 : DEBUG : Mode.jetbumpers : Mode Start. Priority: 150
+2017-04-08 21:52:35,473 : DEBUG : Player : Setting 'jetlevel1_count' to: 20, (prior: 0, change: 20)
+2017-04-08 21:52:35,474 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,474 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,474 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,474 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,474 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,474 : DEBUG : Events : player_turn_start, None, None, {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,474 : DEBUG : Events : player_ball, None, None, {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,474 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,474 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,475 : DEBUG : Mode.base : Mode Start. Priority: 100
+2017-04-08 21:52:35,475 : DEBUG : Events : Registered McSlidePlayer.config_play_callback as a handler for 'mode_base_started', priority: 100, kwargs: {'settings': {'slides': {'widgets': {'persist': False, 'action': 'play', 'show': True, 'expire': None, 'priority': None, 'slide': None, 'transition_out': None, 'force': False, 'transition': None, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'number_grouping': True, 'anchor_x': None, 'adjust_right': None, 'x': None, 'key': None, 'text': '(score)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 100, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'anchor_y': None, 'adjust_left': None, 'valign': 'middle', 'min_digits': 2}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'halign': 'center', 'anchor_y': 'bottom', 'anchor_x': 'left', 'adjust_right': None, 'key': None, 'text': 'PLAYER (number)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'x': '10', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'halign': 'center', 'anchor_y': 'bottom', 'anchor_x': 'right', 'adjust_right': None, 'key': None, 'text': 'BALL (ball)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'x': 'right-10', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'valign': 'middle', 'min_digits': 0}], 'target': None}}}, 'calling_context': 'mode_base_started', 'mode': <Mode.base>}
+2017-04-08 21:52:35,476 : DEBUG : Events : ^^^^ Posted event 'slide_welcome_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,476 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,476 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,476 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,476 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,476 : DEBUG : Events : player_turn_start, None, None, {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,476 : DEBUG : Events : player_ball, None, None, {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,477 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,477 : DEBUG : Events : slide_welcome_slide_active, None, None, {}
+2017-04-08 21:52:35,477 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,485 : DEBUG : MPF-MC BCP Server : Received "trigger?ball=int:1&player=int:1&name=ball_started"
+2017-04-08 21:52:35,490 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: <bound method Player._player_add_done of <Player 1>>, Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,490 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: <bound method Player._player_add_done of <Player 1>>. Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,490 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: None, Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,491 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: None. Args: {'player': <Player 1>, 'num': 1}
+2017-04-08 21:52:35,491 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,491 : DEBUG : MPF-MC BCP Server : Received "trigger?name=mode_base_started"
+2017-04-08 21:52:35,491 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: None. Args: {'player': '<Player 1>', 'num': 1}
+2017-04-08 21:52:35,492 : DEBUG : Events : ^^^^ Processing event 'player_turn_start'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,492 : DEBUG : Events : ['<bound', 'method', 'MpfMc.player_start_turn', 'of', '<mpfmc.core.mc.MpfMc', 'object', 'at', '0x0000000004AA5EE8>>'] (priority: 1) responding to event 'player_turn_start' with args {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,492 : DEBUG : Events : ^^^^ Posted event 'player_turn_start'. Type: None, Callback: None, Args: {'player': <Player 1>, 'number': 1}
+2017-04-08 21:52:35,492 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,492 : DEBUG : Events : player_ball, None, None, {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,492 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,493 : DEBUG : Events : slide_welcome_slide_active, None, None, {}
+2017-04-08 21:52:35,493 : DEBUG : Events : player_turn_start, None, None, {'player': <Player 1>, 'number': 1}
+2017-04-08 21:52:35,493 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,493 : DEBUG : Events : vvvv Finished event 'player_turn_start'. Type: None. Callback: None. Args: {'player': '<Player 1>', 'number': 1}
+2017-04-08 21:52:35,493 : DEBUG : Events : ^^^^ Processing event 'player_ball'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,494 : DEBUG : Events : vvvv Finished event 'player_ball'. Type: None. Callback: None. Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:35,494 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,494 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:35,494 : DEBUG : Events : ^^^^ Processing event 'slide_welcome_slide_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,494 : DEBUG : Events : vvvv Finished event 'slide_welcome_slide_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,494 : DEBUG : Events : ^^^^ Processing event 'player_turn_start'. Type: None, Callback: None, Args: {'player': <Player 1>, 'number': 1}
+2017-04-08 21:52:35,495 : DEBUG : Events : ['<bound', 'method', 'MpfMc.player_start_turn', 'of', '<mpfmc.core.mc.MpfMc', 'object', 'at', '0x0000000004AA5EE8>>'] (priority: 1) responding to event 'player_turn_start' with args {'player': <Player 1>, 'number': 1}
+2017-04-08 21:52:35,495 : DEBUG : Events : vvvv Finished event 'player_turn_start'. Type: None. Callback: None. Args: {'player': <Player 1>, 'number': 1}
+2017-04-08 21:52:35,495 : DEBUG : Player : Setting 'score' to: 0, (prior: 0, change: 0)
+2017-04-08 21:52:35,495 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': 0, 'player_num': 1, 'change': 0}
+2017-04-08 21:52:35,495 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,496 : DEBUG : Events : player_score, None, None, {'value': 0, 'prev_value': 0, 'player_num': 1, 'change': 0}
+2017-04-08 21:52:35,496 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,496 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': 0, 'player_num': 1, 'change': 0}
+2017-04-08 21:52:35,496 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 0, 'prev_value': 0, 'player_num': 1, 'change': 0}
+2017-04-08 21:52:35,496 : DEBUG : Events : ^^^^ Posted event 'ball_started'. Type: None, Callback: None, Args: {'player': 1, 'ball': 1}
+2017-04-08 21:52:35,497 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,497 : DEBUG : Events : ball_started, None, None, {'player': 1, 'ball': 1}
+2017-04-08 21:52:35,497 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,497 : DEBUG : Events : ^^^^ Posted event 'mode_base_started'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,497 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,497 : DEBUG : Events : ball_started, None, None, {'player': 1, 'ball': 1}
+2017-04-08 21:52:35,498 : DEBUG : Events : mode_base_started, None, None, {}
+2017-04-08 21:52:35,498 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,517 : DEBUG : Events : ^^^^ Processing event 'ball_started'. Type: None, Callback: None, Args: {'player': 1, 'ball': 1}
+2017-04-08 21:52:35,517 : DEBUG : Events : vvvv Finished event 'ball_started'. Type: None. Callback: None. Args: {'player': 1, 'ball': 1}
+2017-04-08 21:52:35,517 : DEBUG : Events : ^^^^ Processing event 'mode_base_started'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,518 : DEBUG : Events : ['<bound', 'method', 'McSlidePlayer.config_play_callback', 'of', 'McConfigPlayer.slides>'] (priority: 100) responding to event 'mode_base_started' with args {'settings': {'slides': {'widgets': {'persist': False, 'action': 'play', 'show': True, 'expire': None, 'priority': None, 'slide': None, 'transition_out': None, 'force': False, 'transition': None, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'number_grouping': True, 'anchor_x': None, 'adjust_right': None, 'x': None, 'key': None, 'text': '(score)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'halign': 'center', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 100, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'anchor_y': None, 'adjust_left': None, 'valign': 'middle', 'min_digits': 2}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'halign': 'center', 'anchor_y': 'bottom', 'anchor_x': 'left', 'adjust_right': None, 'key': None, 'text': 'PLAYER (number)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'x': '10', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'valign': 'middle', 'min_digits': 0}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'halign': 'center', 'anchor_y': 'bottom', 'anchor_x': 'right', 'adjust_right': None, 'key': None, 'text': 'BALL (ball)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'x': 'right-10', 'animations': None, 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'valign': 'middle', 'min_digits': 0}], 'target': None}}}, 'calling_context': 'mode_base_started', 'mode': <Mode.base>}
+2017-04-08 21:52:35,518 : DEBUG : Events : Registered McSlidePlayer._add_slide_to_target_when_active as a handler for 'display_default_ready', priority: 1, kwargs: {'instance_dict': {'default': {}}, 'slide_name': 'widgets', 's': {'transition_out': None, 'transition': None, 'expire': None, 'slide': None, 'priority': 100, 'widgets': [{'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'number_grouping': True, 'anchor_x': None, 'adjust_right': None, 'x': None, 'key': None, 'text': '(score)', 'opacity': 1.0, 'expire': None, '_default_settings': ['font_name', 'font_size'], 'halign': 'center', 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 100, 'type': 'text', 'y': None, 'style': None, 'italic': False, 'bold': False, 'anchor_y': None, 'adjust_left': None, 'animations': None, 'min_digits': 2}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': 'left', 'adjust_right': None, '_default_settings': ['font_name', 'font_size'], 'text': 'PLAYER (number)', 'opacity': 1.0, 'expire': None, 'x': '10', 'halign': 'center', 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}, {'adjust_top': None, 'font_name': 'DS-DIGI', 'z': 0, 'reset_animations_events': [], 'anchor_y': 'bottom', 'anchor_x': 'right', 'adjust_right': None, '_default_settings': ['font_name', 'font_size'], 'text': 'BALL (ball)', 'opacity': 1.0, 'expire': None, 'x': 'right-10', 'halign': 'center', 'valign': 'middle', 'adjust_bottom': None, 'color': [1.0, 1.0, 1.0, 1.0], 'font_size': 50, 'type': 'text', 'y': '10', 'style': None, 'italic': False, 'bold': False, 'number_grouping': False, 'adjust_left': None, 'key': None, 'animations': None, 'min_digits': 0}], 'action': 'play', 'show': True, 'persist': False, 'calling_context': 'mode_base_started', 'force': False, 'target': None}, 'target_name': 'default', 'key': 'base.slide_player'}
+2017-04-08 21:52:35,522 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_score', priority: 1, kwargs: {}
+2017-04-08 21:52:35,522 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,526 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_number', priority: 1, kwargs: {}
+2017-04-08 21:52:35,526 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,529 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_ball', priority: 1, kwargs: {}
+2017-04-08 21:52:35,529 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,530 : DEBUG : Events : ^^^^ Posted event 'slide_widgets_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,531 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,531 : DEBUG : Events : slide_widgets_created, None, None, {}
+2017-04-08 21:52:35,531 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,531 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_ball', priority: 1, kwargs: {}
+2017-04-08 21:52:35,531 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,533 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_number', priority: 1, kwargs: {}
+2017-04-08 21:52:35,533 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,534 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_score', priority: 1, kwargs: {}
+2017-04-08 21:52:35,535 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2017-04-08 21:52:35,536 : DEBUG : Events : vvvv Finished event 'mode_base_started'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,536 : DEBUG : Events : ^^^^ Processing event 'slide_widgets_created'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,536 : DEBUG : Events : vvvv Finished event 'slide_widgets_created'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:35,536 : DEBUG : Events : ^^^^ Posted event 'slide_widgets_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,537 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:35,537 : DEBUG : Events : slide_widgets_active, None, None, {}
+2017-04-08 21:52:35,538 : DEBUG : Events : =========================================
+2017-04-08 21:52:35,548 : DEBUG : Events : ^^^^ Processing event 'slide_widgets_active'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:35,549 : DEBUG : Events : vvvv Finished event 'slide_widgets_active'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:38,362 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:19&prev_value=int:20&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:38,363 : DEBUG : Player : Setting 'jetlevel1_count' to: 19, (prior: 20, change: -1)
+2017-04-08 21:52:38,363 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 19, 'prev_value': 20, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,364 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:38,364 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 19, 'prev_value': 20, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,364 : DEBUG : Events : =========================================
+2017-04-08 21:52:38,372 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:100&prev_value=int:0&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:38,393 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 19, 'prev_value': 20, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,393 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 19, 'prev_value': 20, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,393 : DEBUG : Player : Setting 'score' to: 100, (prior: 0, change: 100)
+2017-04-08 21:52:38,394 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,394 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:38,394 : DEBUG : Events : player_score, None, None, {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,394 : DEBUG : Events : =========================================
+2017-04-08 21:52:38,422 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,422 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=00>>'] (priority: 1) responding to event 'player_score' with args {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,423 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=100>>'] (priority: 1) responding to event 'player_score' with args {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,424 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 100, 'prev_value': 0, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,906 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:18&prev_value=int:19&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:38,906 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:200&prev_value=int:100&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:38,907 : DEBUG : Player : Setting 'jetlevel1_count' to: 18, (prior: 19, change: -1)
+2017-04-08 21:52:38,907 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 18, 'prev_value': 19, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,908 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:38,908 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 18, 'prev_value': 19, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,908 : DEBUG : Events : =========================================
+2017-04-08 21:52:38,909 : DEBUG : Player : Setting 'score' to: 200, (prior: 100, change: 100)
+2017-04-08 21:52:38,909 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,909 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:38,909 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 18, 'prev_value': 19, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,910 : DEBUG : Events : player_score, None, None, {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,910 : DEBUG : Events : =========================================
+2017-04-08 21:52:38,936 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 18, 'prev_value': 19, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,936 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 18, 'prev_value': 19, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:38,936 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,937 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=100>>'] (priority: 1) responding to event 'player_score' with args {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,938 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=200>>'] (priority: 1) responding to event 'player_score' with args {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:38,939 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 200, 'prev_value': 100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,530 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:17&prev_value=int:18&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:39,532 : DEBUG : Player : Setting 'jetlevel1_count' to: 17, (prior: 18, change: -1)
+2017-04-08 21:52:39,532 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 17, 'prev_value': 18, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:39,532 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:39,532 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 17, 'prev_value': 18, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:39,532 : DEBUG : Events : =========================================
+2017-04-08 21:52:39,534 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:300&prev_value=int:200&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:39,561 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 17, 'prev_value': 18, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:39,561 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 17, 'prev_value': 18, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:39,562 : DEBUG : Player : Setting 'score' to: 300, (prior: 200, change: 100)
+2017-04-08 21:52:39,562 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,562 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:39,562 : DEBUG : Events : player_score, None, None, {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,562 : DEBUG : Events : =========================================
+2017-04-08 21:52:39,592 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,592 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=200>>'] (priority: 1) responding to event 'player_score' with args {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,596 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=300>>'] (priority: 1) responding to event 'player_score' with args {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:39,601 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 300, 'prev_value': 200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,067 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:16&prev_value=int:17&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:40,068 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:400&prev_value=int:300&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:40,070 : DEBUG : Player : Setting 'jetlevel1_count' to: 16, (prior: 17, change: -1)
+2017-04-08 21:52:40,071 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 16, 'prev_value': 17, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,071 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:40,071 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 16, 'prev_value': 17, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,072 : DEBUG : Events : =========================================
+2017-04-08 21:52:40,072 : DEBUG : Player : Setting 'score' to: 400, (prior: 300, change: 100)
+2017-04-08 21:52:40,072 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,072 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:40,073 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 16, 'prev_value': 17, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,073 : DEBUG : Events : player_score, None, None, {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,073 : DEBUG : Events : =========================================
+2017-04-08 21:52:40,099 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 16, 'prev_value': 17, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,100 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 16, 'prev_value': 17, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,100 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,100 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=300>>'] (priority: 1) responding to event 'player_score' with args {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,101 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=400>>'] (priority: 1) responding to event 'player_score' with args {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,102 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 400, 'prev_value': 300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,552 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:15&prev_value=int:16&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:40,558 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:500&prev_value=int:400&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:40,580 : DEBUG : Player : Setting 'jetlevel1_count' to: 15, (prior: 16, change: -1)
+2017-04-08 21:52:40,581 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 15, 'prev_value': 16, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,581 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:40,581 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 15, 'prev_value': 16, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,582 : DEBUG : Events : =========================================
+2017-04-08 21:52:40,582 : DEBUG : Player : Setting 'score' to: 500, (prior: 400, change: 100)
+2017-04-08 21:52:40,582 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,582 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:40,582 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 15, 'prev_value': 16, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,582 : DEBUG : Events : player_score, None, None, {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,583 : DEBUG : Events : =========================================
+2017-04-08 21:52:40,609 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 15, 'prev_value': 16, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,609 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 15, 'prev_value': 16, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:40,610 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,610 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=400>>'] (priority: 1) responding to event 'player_score' with args {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,611 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=500>>'] (priority: 1) responding to event 'player_score' with args {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:40,612 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 500, 'prev_value': 400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,004 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:14&prev_value=int:15&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:41,023 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:600&prev_value=int:500&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:41,025 : DEBUG : Player : Setting 'jetlevel1_count' to: 14, (prior: 15, change: -1)
+2017-04-08 21:52:41,026 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 14, 'prev_value': 15, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,026 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,026 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 14, 'prev_value': 15, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,027 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,027 : DEBUG : Player : Setting 'score' to: 600, (prior: 500, change: 100)
+2017-04-08 21:52:41,027 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,028 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,028 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 14, 'prev_value': 15, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,028 : DEBUG : Events : player_score, None, None, {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,029 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,054 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 14, 'prev_value': 15, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,054 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 14, 'prev_value': 15, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,054 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,055 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=500>>'] (priority: 1) responding to event 'player_score' with args {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,056 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=600>>'] (priority: 1) responding to event 'player_score' with args {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,057 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 600, 'prev_value': 500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,495 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:13&prev_value=int:14&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:41,496 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:700&prev_value=int:600&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:41,497 : DEBUG : Player : Setting 'jetlevel1_count' to: 13, (prior: 14, change: -1)
+2017-04-08 21:52:41,498 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 13, 'prev_value': 14, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,498 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,499 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 13, 'prev_value': 14, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,499 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,499 : DEBUG : Player : Setting 'score' to: 700, (prior: 600, change: 100)
+2017-04-08 21:52:41,500 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,500 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,500 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 13, 'prev_value': 14, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,500 : DEBUG : Events : player_score, None, None, {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,501 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,527 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 13, 'prev_value': 14, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,527 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 13, 'prev_value': 14, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,527 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,528 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=600>>'] (priority: 1) responding to event 'player_score' with args {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,529 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=700>>'] (priority: 1) responding to event 'player_score' with args {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,529 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 700, 'prev_value': 600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,878 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:12&prev_value=int:13&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:41,891 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:800&prev_value=int:700&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:41,908 : DEBUG : Player : Setting 'jetlevel1_count' to: 12, (prior: 13, change: -1)
+2017-04-08 21:52:41,908 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 12, 'prev_value': 13, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,909 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,909 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 12, 'prev_value': 13, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,909 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,909 : DEBUG : Player : Setting 'score' to: 800, (prior: 700, change: 100)
+2017-04-08 21:52:41,909 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,909 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:41,909 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 12, 'prev_value': 13, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,909 : DEBUG : Events : player_score, None, None, {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,909 : DEBUG : Events : =========================================
+2017-04-08 21:52:41,938 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 12, 'prev_value': 13, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,938 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 12, 'prev_value': 13, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:41,938 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,938 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=700>>'] (priority: 1) responding to event 'player_score' with args {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,940 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=800>>'] (priority: 1) responding to event 'player_score' with args {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:41,940 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 800, 'prev_value': 700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,279 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:11&prev_value=int:12&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:42,294 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:900&prev_value=int:800&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:42,295 : DEBUG : Player : Setting 'jetlevel1_count' to: 11, (prior: 12, change: -1)
+2017-04-08 21:52:42,296 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 11, 'prev_value': 12, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,296 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:42,296 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 11, 'prev_value': 12, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,296 : DEBUG : Events : =========================================
+2017-04-08 21:52:42,296 : DEBUG : Player : Setting 'score' to: 900, (prior: 800, change: 100)
+2017-04-08 21:52:42,296 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,297 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:42,297 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 11, 'prev_value': 12, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,297 : DEBUG : Events : player_score, None, None, {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,297 : DEBUG : Events : =========================================
+2017-04-08 21:52:42,325 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 11, 'prev_value': 12, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,325 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 11, 'prev_value': 12, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,325 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,325 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=800>>'] (priority: 1) responding to event 'player_score' with args {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,326 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=900>>'] (priority: 1) responding to event 'player_score' with args {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,327 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 900, 'prev_value': 800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,749 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:10&prev_value=int:11&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:42,772 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1000&prev_value=int:900&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:42,773 : DEBUG : Player : Setting 'jetlevel1_count' to: 10, (prior: 11, change: -1)
+2017-04-08 21:52:42,773 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 10, 'prev_value': 11, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,773 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:42,773 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 10, 'prev_value': 11, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,773 : DEBUG : Events : =========================================
+2017-04-08 21:52:42,773 : DEBUG : Player : Setting 'score' to: 1000, (prior: 900, change: 100)
+2017-04-08 21:52:42,773 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,774 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:42,774 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 10, 'prev_value': 11, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,774 : DEBUG : Events : player_score, None, None, {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,774 : DEBUG : Events : =========================================
+2017-04-08 21:52:42,802 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 10, 'prev_value': 11, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,802 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 10, 'prev_value': 11, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:42,802 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,803 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=900>>'] (priority: 1) responding to event 'player_score' with args {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,804 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,000>>'] (priority: 1) responding to event 'player_score' with args {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:42,805 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1000, 'prev_value': 900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,190 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:9&prev_value=int:10&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:43,190 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1100&prev_value=int:1000&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:43,191 : DEBUG : Player : Setting 'jetlevel1_count' to: 9, (prior: 10, change: -1)
+2017-04-08 21:52:43,191 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 9, 'prev_value': 10, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,192 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,192 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 9, 'prev_value': 10, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,192 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,192 : DEBUG : Player : Setting 'score' to: 1100, (prior: 1000, change: 100)
+2017-04-08 21:52:43,192 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,192 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,192 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 9, 'prev_value': 10, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,193 : DEBUG : Events : player_score, None, None, {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,193 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,221 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 9, 'prev_value': 10, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,221 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 9, 'prev_value': 10, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,221 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,222 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,000>>'] (priority: 1) responding to event 'player_score' with args {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,223 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,100>>'] (priority: 1) responding to event 'player_score' with args {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,224 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1100, 'prev_value': 1000, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,540 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:8&prev_value=int:9&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:43,556 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1200&prev_value=int:1100&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:43,557 : DEBUG : Player : Setting 'jetlevel1_count' to: 8, (prior: 9, change: -1)
+2017-04-08 21:52:43,557 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 8, 'prev_value': 9, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,557 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,557 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 8, 'prev_value': 9, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,558 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,558 : DEBUG : Player : Setting 'score' to: 1200, (prior: 1100, change: 100)
+2017-04-08 21:52:43,558 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,558 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,558 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 8, 'prev_value': 9, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,558 : DEBUG : Events : player_score, None, None, {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,559 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,586 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 8, 'prev_value': 9, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,586 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 8, 'prev_value': 9, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,586 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,587 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,100>>'] (priority: 1) responding to event 'player_score' with args {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,588 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,200>>'] (priority: 1) responding to event 'player_score' with args {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,588 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1200, 'prev_value': 1100, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,937 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:7&prev_value=int:8&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:43,951 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1300&prev_value=int:1200&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:43,952 : DEBUG : Player : Setting 'jetlevel1_count' to: 7, (prior: 8, change: -1)
+2017-04-08 21:52:43,953 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 7, 'prev_value': 8, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,953 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,953 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 7, 'prev_value': 8, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,953 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,954 : DEBUG : Player : Setting 'score' to: 1300, (prior: 1200, change: 100)
+2017-04-08 21:52:43,954 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,954 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:43,954 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 7, 'prev_value': 8, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,954 : DEBUG : Events : player_score, None, None, {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,955 : DEBUG : Events : =========================================
+2017-04-08 21:52:43,981 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 7, 'prev_value': 8, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,981 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 7, 'prev_value': 8, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:43,981 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,981 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,200>>'] (priority: 1) responding to event 'player_score' with args {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,982 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,300>>'] (priority: 1) responding to event 'player_score' with args {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:43,983 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1300, 'prev_value': 1200, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,359 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:6&prev_value=int:7&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:44,366 : DEBUG : Player : Setting 'jetlevel1_count' to: 6, (prior: 7, change: -1)
+2017-04-08 21:52:44,366 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 6, 'prev_value': 7, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,367 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:44,367 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 6, 'prev_value': 7, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,368 : DEBUG : Events : =========================================
+2017-04-08 21:52:44,382 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1400&prev_value=int:1300&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:44,395 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 6, 'prev_value': 7, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,396 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 6, 'prev_value': 7, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,396 : DEBUG : Player : Setting 'score' to: 1400, (prior: 1300, change: 100)
+2017-04-08 21:52:44,396 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,396 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:44,396 : DEBUG : Events : player_score, None, None, {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,396 : DEBUG : Events : =========================================
+2017-04-08 21:52:44,425 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,425 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,300>>'] (priority: 1) responding to event 'player_score' with args {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,426 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,400>>'] (priority: 1) responding to event 'player_score' with args {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,427 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1400, 'prev_value': 1300, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,811 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:5&prev_value=int:6&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:44,811 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1500&prev_value=int:1400&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:44,813 : DEBUG : Player : Setting 'jetlevel1_count' to: 5, (prior: 6, change: -1)
+2017-04-08 21:52:44,813 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 5, 'prev_value': 6, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,813 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:44,813 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 5, 'prev_value': 6, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,813 : DEBUG : Events : =========================================
+2017-04-08 21:52:44,814 : DEBUG : Player : Setting 'score' to: 1500, (prior: 1400, change: 100)
+2017-04-08 21:52:44,814 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,814 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:44,814 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 5, 'prev_value': 6, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,814 : DEBUG : Events : player_score, None, None, {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,814 : DEBUG : Events : =========================================
+2017-04-08 21:52:44,842 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 5, 'prev_value': 6, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,842 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 5, 'prev_value': 6, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:44,842 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,842 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,400>>'] (priority: 1) responding to event 'player_score' with args {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,843 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,500>>'] (priority: 1) responding to event 'player_score' with args {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:44,844 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1500, 'prev_value': 1400, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,204 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:4&prev_value=int:5&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:45,222 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1600&prev_value=int:1500&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:45,226 : DEBUG : Player : Setting 'jetlevel1_count' to: 4, (prior: 5, change: -1)
+2017-04-08 21:52:45,226 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 4, 'prev_value': 5, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,226 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:45,227 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 4, 'prev_value': 5, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,227 : DEBUG : Events : =========================================
+2017-04-08 21:52:45,228 : DEBUG : Player : Setting 'score' to: 1600, (prior: 1500, change: 100)
+2017-04-08 21:52:45,228 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,228 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:45,229 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 4, 'prev_value': 5, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,229 : DEBUG : Events : player_score, None, None, {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,229 : DEBUG : Events : =========================================
+2017-04-08 21:52:45,255 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 4, 'prev_value': 5, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,255 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 4, 'prev_value': 5, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,255 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,256 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,500>>'] (priority: 1) responding to event 'player_score' with args {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,257 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,600>>'] (priority: 1) responding to event 'player_score' with args {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,258 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1600, 'prev_value': 1500, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,612 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:3&prev_value=int:4&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:45,627 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1700&prev_value=int:1600&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:45,636 : DEBUG : Player : Setting 'jetlevel1_count' to: 3, (prior: 4, change: -1)
+2017-04-08 21:52:45,637 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 3, 'prev_value': 4, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,637 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:45,637 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 3, 'prev_value': 4, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,637 : DEBUG : Events : =========================================
+2017-04-08 21:52:45,637 : DEBUG : Player : Setting 'score' to: 1700, (prior: 1600, change: 100)
+2017-04-08 21:52:45,638 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,638 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:45,638 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 3, 'prev_value': 4, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,638 : DEBUG : Events : player_score, None, None, {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,638 : DEBUG : Events : =========================================
+2017-04-08 21:52:45,666 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 3, 'prev_value': 4, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,666 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 3, 'prev_value': 4, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:45,666 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,667 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,600>>'] (priority: 1) responding to event 'player_score' with args {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,668 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,700>>'] (priority: 1) responding to event 'player_score' with args {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:45,668 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1700, 'prev_value': 1600, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,045 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:2&prev_value=int:3&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:46,057 : DEBUG : Player : Setting 'jetlevel1_count' to: 2, (prior: 3, change: -1)
+2017-04-08 21:52:46,057 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 2, 'prev_value': 3, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,057 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,058 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 2, 'prev_value': 3, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,058 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,062 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1800&prev_value=int:1700&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:46,086 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 2, 'prev_value': 3, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,086 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 2, 'prev_value': 3, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,087 : DEBUG : Player : Setting 'score' to: 1800, (prior: 1700, change: 100)
+2017-04-08 21:52:46,087 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,087 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,087 : DEBUG : Events : player_score, None, None, {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,087 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,116 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,116 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,700>>'] (priority: 1) responding to event 'player_score' with args {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,118 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,800>>'] (priority: 1) responding to event 'player_score' with args {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,119 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1800, 'prev_value': 1700, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,452 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1&prev_value=int:2&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:46,467 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1900&prev_value=int:1800&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:46,471 : DEBUG : Player : Setting 'jetlevel1_count' to: 1, (prior: 2, change: -1)
+2017-04-08 21:52:46,472 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 2, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,472 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,472 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 1, 'prev_value': 2, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,472 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,472 : DEBUG : Player : Setting 'score' to: 1900, (prior: 1800, change: 100)
+2017-04-08 21:52:46,473 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,473 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,473 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 1, 'prev_value': 2, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,473 : DEBUG : Events : player_score, None, None, {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,473 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,501 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 2, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,501 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 1, 'prev_value': 2, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,501 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,502 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,800>>'] (priority: 1) responding to event 'player_score' with args {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,502 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,900>>'] (priority: 1) responding to event 'player_score' with args {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,503 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 1900, 'prev_value': 1800, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,858 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:0&prev_value=int:1&name=jetlevel1_count&player_num=int:1&change=int:-1"
+2017-04-08 21:52:46,880 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:20&prev_value=int:0&name=jetlevel1_count&player_num=int:1&change=int:20"
+2017-04-08 21:52:46,883 : DEBUG : Player : Setting 'jetlevel1_count' to: 0, (prior: 1, change: -1)
+2017-04-08 21:52:46,884 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': 1, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,884 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,884 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 0, 'prev_value': 1, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,884 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,884 : DEBUG : Player : Setting 'jetlevel1_count' to: 20, (prior: 0, change: 20)
+2017-04-08 21:52:46,884 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:46,884 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,885 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 0, 'prev_value': 1, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,885 : DEBUG : Events : player_jetlevel1_count, None, None, {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:46,885 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,886 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:2000&prev_value=int:1900&name=score&player_num=int:1&change=int:100"
+2017-04-08 21:52:46,889 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:3000&prev_value=int:2000&name=score&player_num=int:1&change=int:1000"
+2017-04-08 21:52:46,891 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1&prev_value=int:0&name=jetlevel&player_num=int:1&change=int:1"
+2017-04-08 21:52:46,912 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 0, 'prev_value': 1, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,912 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 0, 'prev_value': 1, 'player_num': 1, 'change': -1}
+2017-04-08 21:52:46,912 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel1_count'. Type: None, Callback: None, Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:46,912 : DEBUG : Events : vvvv Finished event 'player_jetlevel1_count'. Type: None. Callback: None. Args: {'value': 20, 'prev_value': 0, 'player_num': 1, 'change': 20}
+2017-04-08 21:52:46,913 : DEBUG : Player : Setting 'score' to: 2000, (prior: 1900, change: 100)
+2017-04-08 21:52:46,913 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,913 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,913 : DEBUG : Events : player_score, None, None, {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,913 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,913 : DEBUG : Player : Setting 'score' to: 3000, (prior: 2000, change: 1000)
+2017-04-08 21:52:46,913 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,913 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,914 : DEBUG : Events : player_score, None, None, {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,914 : DEBUG : Events : player_score, None, None, {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,914 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,914 : DEBUG : Player : Setting 'jetlevel' to: 1, (prior: 0, change: 1)
+2017-04-08 21:52:46,914 : DEBUG : Events : ^^^^ Posted event 'player_jetlevel'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:46,914 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:46,914 : DEBUG : Events : player_score, None, None, {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,915 : DEBUG : Events : player_score, None, None, {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,915 : DEBUG : Events : player_jetlevel, None, None, {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:46,915 : DEBUG : Events : =========================================
+2017-04-08 21:52:46,941 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,941 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=1,900>>'] (priority: 1) responding to event 'player_score' with args {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,942 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=3,000>>'] (priority: 1) responding to event 'player_score' with args {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,943 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 2000, 'prev_value': 1900, 'player_num': 1, 'change': 100}
+2017-04-08 21:52:46,943 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,943 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=3,000>>'] (priority: 1) responding to event 'player_score' with args {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,945 : DEBUG : Events : ['<bound', 'method', 'Text._player_var_change', 'of', '<Text', 'Widget', 'text=3,000>>'] (priority: 1) responding to event 'player_score' with args {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,946 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'value': 3000, 'prev_value': 2000, 'player_num': 1, 'change': 1000}
+2017-04-08 21:52:46,946 : DEBUG : Events : ^^^^ Processing event 'player_jetlevel'. Type: None, Callback: None, Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:46,946 : DEBUG : Events : vvvv Finished event 'player_jetlevel'. Type: None. Callback: None. Args: {'value': 1, 'prev_value': 0, 'player_num': 1, 'change': 1}
+2017-04-08 21:52:57,367 : INFO : kivy : Base: Leaving application in progress...
+2017-04-08 21:52:57,577 : INFO : mpfmc : Stopping...
+2017-04-08 21:52:57,577 : DEBUG : Events : ^^^^ Posted event 'shutdown'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:57,578 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:57,578 : DEBUG : Events : shutdown, None, None, {}
+2017-04-08 21:52:57,578 : DEBUG : Events : =========================================
+2017-04-08 21:52:57,578 : DEBUG : Events : ^^^^ Processing event 'shutdown'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:57,578 : DEBUG : Events : ['<bound', 'method', 'SoundSystem.shutdown', 'of', '<mpfmc.core.audio.SoundSystem', 'object', 'at', '0x0000000004B75080>>'] (priority: 1) responding to event 'shutdown' with args {}
+2017-04-08 21:52:57,579 : DEBUG : AudioInterface : Disabling audio playback
+2017-04-08 21:52:57,579 : DEBUG : Track.0.TrackStandard.default : Stopping all sounds and removing any pending sounds from queue
+2017-04-08 21:52:57,579 : DEBUG : Events : vvvv Finished event 'shutdown'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:57,579 : INFO : mpfmc : Loop rate 33.45 Hz
+2017-04-08 21:52:57,584 : INFO : kivy : MC run loop ended.
+2017-04-08 21:52:57,585 : INFO : kivy : Stopping child threads... (3 remaining)
+2017-04-08 21:52:57,836 : INFO : MPF-MC BCP Server : Stopping BCP sending thread
+2017-04-08 21:52:57,894 : INFO : mpfmc : Stopping...
+2017-04-08 21:52:57,896 : DEBUG : Events : ^^^^ Posted event 'shutdown'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:57,896 : DEBUG : Events : ============== EVENTS QUEUE =============
+2017-04-08 21:52:57,897 : DEBUG : Events : shutdown, None, None, {}
+2017-04-08 21:52:57,898 : DEBUG : Events : =========================================
+2017-04-08 21:52:57,898 : DEBUG : Events : ^^^^ Processing event 'shutdown'. Type: None, Callback: None, Args: {}
+2017-04-08 21:52:57,898 : DEBUG : Events : ['<bound', 'method', 'SoundSystem.shutdown', 'of', '<mpfmc.core.audio.SoundSystem', 'object', 'at', '0x0000000004B75080>>'] (priority: 1) responding to event 'shutdown' with args {}
+2017-04-08 21:52:57,899 : DEBUG : Events : vvvv Finished event 'shutdown'. Type: None. Callback: None. Args: {}
+2017-04-08 21:52:57,899 : INFO : mpfmc : Loop rate 33.13 Hz
+2017-04-08 21:52:58,586 : INFO : kivy : All child threads stopped.

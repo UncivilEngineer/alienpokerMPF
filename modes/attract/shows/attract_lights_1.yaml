@@ -1,40 +1,297 @@
 #show_version=4
 - duration: 1
   lights:
+    #the poker Lights
     l_p_light: ff
     l_o_light: 0
     l_k_light: 0
     l_e_light: 0
     l_r_light: 0
-
+    #the bonus lights
+    l_2x: ff
+    l_3x: 0
+    l_4x: 0
+    l_5x: 0
+    l_shoot_again: 0
+    #royal flush lights
+    l_royal_flush_20000: ff
+    l_royal_flush_40000: 0
+    l_royal_flush_60000: 0
+    l_royal_flush_80000: 0
+    l_royal_flush_100000: 0
+    #spcial lights
+    l_right_special: ff
+    l_left_special: 0
+    #bonus counter lights
+    l_2k_bonus: ff
+    l_4k_bonus: 0
+    l_6k_bonus: 0
+    l_8k_bonus: 0
+    l_10k_bonus: 0
+    l_12k_bonus: ff
+    l_14k_bonus: 0
+    l_16k_bonus: 0
+    l_18k_bonus: 0
+    l_20k_bonus: 0
+    l_40k_bonus: 0
+    #left side lights
+    l_lower_left_joker: ff
+    l_advance_royal_flush: 0
+    l_ace_spades: 0
+    l_middle_left_joker: 0
+    #right side lights
+    l_royal_flush_2x: ff
+    l_royal_flush_3x: 0
+    l_royal_flush_4x: 0
+    l_extra_ball: 0
+    l_ace_hearts: 0
+    l_right_joker: 0
+    #jet bumper lights
+    l_top_left_joker: ff
+    l_left_jet_bumper: 0
+    l_center_jet_bumper: 0
+    l_right_jet_bumper: 0
+    l_bottom_jet_bumper: 0
+    #top lights
+    l_ace_clubs: ff
+    l_heart_king_rollover: 0
+    l_club_king_rollover: 0
+    l_diamond_king_rollover: 0
+    l_spade_king_rollover: 0
 - duration: 1
   lights:
+      #the poker lights
       l_p_light: 0
       l_o_light: ff
       l_k_light: 0
       l_e_light: 0
       l_r_light: 0
-
+      #the bonus lights
+      l_2x: 0
+      l_3x: ff
+      l_4x: 0
+      l_5x: 0
+      l_shoot_again: 0
+      #royal flush lights
+      l_royal_flush_20000: 0
+      l_royal_flush_40000: ff
+      l_royal_flush_60000: 0
+      l_royal_flush_80000: 0
+      l_royal_flush_100000: 0
+      #spcial lights
+      l_right_special: 0
+      l_left_special: ff
+      #bonus counter lights
+      l_2k_bonus: 0
+      l_4k_bonus: ff
+      l_6k_bonus: 0
+      l_8k_bonus: 0
+      l_10k_bonus: 0
+      l_12k_bonus: 0
+      l_14k_bonus: ff
+      l_16k_bonus: 0
+      l_18k_bonus: 0
+      l_20k_bonus: 0
+      l_40k_bonus: 0
+      #left side lights
+      l_lower_left_joker: 0
+      l_advance_royal_flush: ff
+      l_ace_spades: 0
+      l_middle_left_joker: 0
+      #right side lights
+      l_royal_flush_2x: 0
+      l_royal_flush_3x: ff
+      l_royal_flush_4x: 0
+      l_extra_ball: 0
+      l_ace_hearts: 0
+      l_right_joker: 0
+      #jet bumper lights
+      l_top_left_joker: 0
+      l_left_jet_bumper: ff
+      l_center_jet_bumper: 0
+      l_right_jet_bumper: 0
+      l_bottom_jet_bumper: 0
+      #top lights
+      l_ace_clubs: 0
+      l_heart_king_rollover: ff
+      l_club_king_rollover: 0
+      l_diamond_king_rollover: 0
+      l_spade_king_rollover: 0
 - duration: 1
   lights:
+    #the poker lights
     l_p_light: 0
     l_o_light: 0
     l_k_light: ff
     l_e_light: 0
     l_r_light: 0
-
+    #the bonus lights
+    l_2x: 0
+    l_3x: 0
+    l_4x: ff
+    l_5x: 0
+    l_shoot_again: 0
+    #royal flush lights
+    l_royal_flush_20000: 0
+    l_royal_flush_40000: 0
+    l_royal_flush_60000: ff
+    l_royal_flush_80000: 0
+    l_royal_flush_100000: 0
+    #spcial lights
+    l_right_special: ff
+    l_left_special: 0
+    #bonus counter lights
+    l_2k_bonus: 0
+    l_4k_bonus: 0
+    l_6k_bonus: ff
+    l_8k_bonus: 0
+    l_10k_bonus: 0
+    l_12k_bonus: 0
+    l_14k_bonus: 0
+    l_16k_bonus: ff
+    l_18k_bonus: 0
+    l_20k_bonus: 0
+    l_40k_bonus: 0
+    #left side lights
+    l_lower_left_joker: 0
+    l_advance_royal_flush: 0
+    l_ace_spades: ff
+    l_middle_left_joker: 0
+    #right side lights
+    l_royal_flush_2x: 0
+    l_royal_flush_3x: 0
+    l_royal_flush_4x: ff
+    l_extra_ball: 0
+    l_ace_hearts: 0
+    l_right_joker: 0
+    #jet bumper lights
+    l_top_left_joker: 0
+    l_left_jet_bumper: 0
+    l_center_jet_bumper: ff
+    l_right_jet_bumper: 0
+    l_bottom_jet_bumper: 0
+    #top lights
+    l_ace_clubs: 0
+    l_heart_king_rollover: 0
+    l_club_king_rollover: ff
+    l_diamond_king_rollover: 0
+    l_spade_king_rollover: 0
 - duration: 1
   lights:
+    #The poker lights
     l_p_light: 0
     l_o_light: 0
     l_k_light: 0
     l_e_light: ff
     l_r_light: 0
-
+    #the bonus lights
+    l_2x: 0
+    l_3x: 0
+    l_4x: 0
+    l_5x: ff
+    l_shoot_again: 0
+    #royal flush lights
+    l_royal_flush_20000: 0
+    l_royal_flush_40000: 0
+    l_royal_flush_60000: 0
+    l_royal_flush_80000: ff
+    l_royal_flush_100000: 0
+    #spcial lights
+    l_right_special: 0
+    l_left_special: ff
+    #bonus counter lights
+    l_2k_bonus: 0
+    l_4k_bonus: 0
+    l_6k_bonus: 0
+    l_8k_bonus: ff
+    l_10k_bonus: 0
+    l_12k_bonus: 0
+    l_14k_bonus: 0
+    l_16k_bonus: 0
+    l_18k_bonus: ff
+    l_20k_bonus: 0
+    l_40k_bonus: 0
+    #left side lights
+    l_lower_left_joker: 0
+    l_advance_royal_flush: 0
+    l_ace_spades: 0
+    l_middle_left_joker: ff
+    #right side lights
+    l_royal_flush_2x: 0
+    l_royal_flush_3x: 0
+    l_royal_flush_4x: 0
+    l_extra_ball: ff
+    l_ace_hearts: 0
+    l_right_joker: 0
+    #jet bumper lights
+    l_top_left_joker: 0
+    l_left_jet_bumper: 0
+    l_center_jet_bumper: 0
+    l_right_jet_bumper: ff
+    l_bottom_jet_bumper: 0
+    #top lights
+    l_ace_clubs: 0
+    l_heart_king_rollover: 0
+    l_club_king_rollover: 0
+    l_diamond_king_rollover: ff
+    l_spade_king_rollover: 0
 - duration: 1
   lights:
+    #the poker lights
     l_p_light: 0
     l_o_light: 0
     l_k_light: 0
     l_e_light: 0
     l_r_light: ff
+    #the bonus lights
+    l_2x: 0
+    l_3x: 0
+    l_4x: 0
+    l_5x: 0
+    l_shoot_again: ff
+    #royal flush lights
+    l_royal_flush_20000: 0
+    l_royal_flush_40000: 0
+    l_royal_flush_60000: 0
+    l_royal_flush_80000: 0
+    l_royal_flush_100000: ff
+    #spcial lights
+    l_right_special: 0
+    l_left_special: ff
+    #bonus counter lights
+    l_2k_bonus: 0
+    l_4k_bonus: 0
+    l_6k_bonus: 0
+    l_8k_bonus: 0
+    l_10k_bonus: ff
+    l_12k_bonus: 0
+    l_14k_bonus: 0
+    l_16k_bonus: 0
+    l_18k_bonus: 0
+    l_20k_bonus: ff
+    l_40k_bonus: ff
+
+    #left side lights
+    l_lower_left_joker: ff
+    l_advance_royal_flush: 0
+    l_ace_spades: 0
+    l_middle_left_joker: ff
+    #right side lights
+    l_royal_flush_2x: 0
+    l_royal_flush_3x: 0
+    l_royal_flush_4x: 0
+    l_extra_ball: 0
+    l_ace_hearts: ff
+    l_right_joker: ff
+    #jet bumper lights
+    l_top_left_joker: 0
+    l_left_jet_bumper: 0
+    l_center_jet_bumper: 0
+    l_right_jet_bumper: 0
+    l_bottom_jet_bumper: ff
+    #top lights
+    l_ace_clubs: 0
+    l_heart_king_rollover: 0
+    l_club_king_rollover: 0
+    l_diamond_king_rollover: 0
+    l_spade_king_rollover: ff

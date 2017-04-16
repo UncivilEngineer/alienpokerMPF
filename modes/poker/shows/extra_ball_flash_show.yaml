@@ -1,0 +1,8 @@
+#show_version=4
+- duration: 1
+  lights:
+    l_extra_ball: ff
+
+- duration: 1
+  lights:
+    l_extra_ball: 0

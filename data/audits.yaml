@@ -1,62 +1,62 @@
 events:
-  game_ended: 19
-  game_started: 126
+  game_ended: 24
+  game_started: 192
 player:
   score:
-    average: 20.0
+    average: 37292.8
     top:
+    - 650000
+    - 260040
+    - 20080
+    - 1500
+    - 300
     - 220
     - 50
     - 40
     - 40
     - 20
-    - 20
-    - 10
-    - 0
-    - 0
-    - 0
-    total: 20
+    total: 25
 switches:
-  s_ace_drop_target: 18
-  s_bottom_jet_bumper: 45
+  s_ace_drop_target: 20
+  s_bottom_jet_bumper: 262
   s_center_coin: 0
-  s_center_jet_bumper: 172
-  s_club_ace_eject: 4
-  s_drain: 137
-  s_five_bank_standup: 20
-  s_flipper_lane_change: 158
-  s_heart_ace_eject: 38
+  s_center_jet_bumper: 594
+  s_club_ace_eject: 16
+  s_drain: 180
+  s_five_bank_standup: 21
+  s_flipper_lane_change: 175
+  s_heart_ace_eject: 66
   s_hs_reset: 0
-  s_jack_drop_target: 1
-  s_king_clubs_rollover: 13
-  s_king_diamonds_rollover: 6
-  s_king_drop_target: 42
-  s_king_hearts_rollover: 21
+  s_jack_drop_target: 2
+  s_king_clubs_rollover: 15
+  s_king_diamonds_rollover: 7
+  s_king_drop_target: 57
+  s_king_hearts_rollover: 22
   s_king_spades_rollover: 15
-  s_left_center_standup: 4
+  s_left_center_standup: 7
   s_left_coint: 0
   s_left_inside_rollover: 3
-  s_left_jet_bumper: 22
-  s_left_kicker: 17
-  s_left_special: 7
+  s_left_jet_bumper: 47
+  s_left_kicker: 26
+  s_left_special: 9
   s_lower_left_joker: 8
-  s_lower_right_standup: 54
+  s_lower_right_standup: 71
   s_lower_standup: 5
-  s_middle_left_joker: 8
+  s_middle_left_joker: 9
   s_playfield_tilt: 0
-  s_queen_drop_target: 0
+  s_queen_drop_target: 1
   s_right_center_standup: 6
   s_right_coin: 0
-  s_right_jet_bumper: 42
-  s_right_joker: 11
+  s_right_jet_bumper: 63
+  s_right_joker: 17
   s_right_special: 5
   s_roll_tilt: 0
   s_slam_tilt: 0
-  s_spade_ace_eject: 31
-  s_spinner: 127
-  s_start_button: 6
-  s_ten_drop_target: 23
+  s_spade_ace_eject: 51
+  s_spinner: 147
+  s_start_button: 7
+  s_ten_drop_target: 38
   s_tilt: 0
-  s_top_joker: 12
-  s_top_right_standup: 4
+  s_top_joker: 14
+  s_top_right_standup: 5
   s_top_standup: 7

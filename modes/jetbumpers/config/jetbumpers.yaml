@@ -1,26 +1,32 @@
 #config_version=4
 mode:
   start_events: ball_starting
-  stop_events: jet_level_increase
+  stop_events: ball_ended
+  code: jetbumpers.jetbumpers
   priority: 150
 
+light_player:
+  jets_lvl_2:
+      l_left_jet_bumper: ff
+      l_center_jet_bumper: ff
+      l_right_jet_bumper: ff
+      l_bottom_jet_bumper: ff
 
-logic_blocks:
-  counters:
-    jetlevel1:
-      count_events:
-        - s_center_jet_bumper_active
-        - s_right_jet_bumper_active
-        - s_left_jet_bumper_active
-        - s_bottom_jet_bumper_active
-      events_when_hit: score_jet jetcounter
-      starting_count: 0
-      count_complete_value: 20
-      direction: up
-      events_when_complete: jet_level_increase
+show_player:
+  jets_lvl_3:
+    jetbumper_flash_1:
+      speed: 5
+      loops: -1
+
+  jets_at_max:
+    jetbumper_flash_2:
+      speed: 6
+      loops: -1
+
+
 
 slide_player:
-      jetcounter:  #event that triggers
+      jetcountdown:  #event that triggers
         jetcounter_slide:  #slide event calls
           expire: 2s #show the slide for two seconds
 
@@ -28,12 +34,9 @@ slide_player:
         jet_level_increase_slide:
           expire: 2s
 
-scoring:
-  score_jet:
-    score: 100
-  jet_level_increase:
-    score: 1000
-    jetlevel: 1
+      jets_at_max:
+        jets_maximum_slide:
+          expire: 2s
 
 slides:
   jetcounter_slide: #this slide is shown when the bumpers hit
@@ -41,7 +44,7 @@ slides:
       - type: text
       #the remaining variable gets passed from jetcounter
       #Us the event viewer in monitor to check for avaliable values
-        text: (remaining) hits left to level up
+        text: (jetsremain) hits left to level up
         font_name: DS-DIGI
         font_size: 75
         y: 70
@@ -50,14 +53,17 @@ slides:
   jet_level_increase_slide:
       widgets:
       - type: text
-        text: Jets now Level 1!
+        text: Jets now Level (jetlevel)!
         font_size: 75
         font_name: DS-DIGI
         y: 70
         anchor_y: bottom
 
-
-#scoring:
-#  s_center_jet_bumper_active{jetcount > 1}:
-#    jetcount: 1
-#    score: 100
+  jets_maximum_slide:
+    widgets:
+      - type: text
+        text: JETBUMPERS AT MAXIMUM!
+        font_size: 75
+        font_name: DS-DIGI
+        y: 70
+        anchor_y: bottom
