@@ -1,0 +1,41 @@
+2017-04-15 20:13:13,666 : kivy : Factory: 179 symbols loaded
+2017-04-15 20:13:13,819 : kivy : Image: Providers: img_tex, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2017-04-15 20:13:13,918 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2017-04-15 20:13:13,919 : kivy : Video: Provider: gstplayer
+2017-04-15 20:13:13,993 : kivy : Loading MPF-MC controller
+2017-04-15 20:13:13,994 : mpfmc : Mission Pinball Framework Media Controller v0.33.0
+2017-04-15 20:13:13,994 : mpfmc : Mission Pinball Framework Game Engine v0.33.1
+2017-04-15 20:13:13,995 : mpfmc : Machine path: C:\Users\pinball\alienpoker
+2017-04-15 20:13:13,995 : mpfmc : Starting clock at 30.0Hz
+2017-04-15 20:13:14,026 : kivy : Text: Provider: sdl2
+2017-04-15 20:13:14,478 : kivy : OSC: using <thread> for socket
+2017-04-15 20:13:14,486 : kivy : Window: Provider: sdl2
+2017-04-15 20:13:14,549 : kivy : GL: GLEW initialization succeeded
+2017-04-15 20:13:14,550 : kivy : GL: OpenGL version <b'3.1.0 - Build 8.15.10.2476'>
+2017-04-15 20:13:14,551 : kivy : GL: OpenGL vendor <b'Intel'>
+2017-04-15 20:13:14,551 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics Family'>
+2017-04-15 20:13:14,551 : kivy : GL: OpenGL parsed version: 3, 1
+2017-04-15 20:13:14,552 : kivy : GL: Shading version <b'1.40  - Intel Build 8.15.10.2476'>
+2017-04-15 20:13:14,552 : kivy : GL: Texture max size <8192>
+2017-04-15 20:13:14,552 : kivy : GL: Texture max units <16>
+2017-04-15 20:13:14,610 : kivy : Shader: fragment shader: <b'No errors.'>
+2017-04-15 20:13:14,612 : kivy : Shader: vertex shader: <b'No errors.'>
+2017-04-15 20:13:14,616 : kivy : Shader: program: <No errors.>
+2017-04-15 20:13:14,619 : kivy : Window: auto add sdl2 input provider
+2017-04-15 20:13:14,619 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2017-04-15 20:13:15,119 : AudioInterface : Initialized 0.33.0-dev.03
+2017-04-15 20:13:15,123 : kivy : Base: Start application main loop
+2017-04-15 20:13:15,253 : mpfmc : ASPECT RATIO MISMATCH: The on-screen window is not the same aspect ratio as the display called 'window'. The logical display will be scaled from 800x400 to the window size 800x600, and a black bar will make up the difference
+2017-04-15 20:13:15,378 : MPF-MC BCP Server : Starting up on localhost port 5050
+2017-04-15 20:13:15,386 : MPF-MC BCP Server : Waiting for a connection...
+2017-04-15 20:13:15,440 : MPF-MC BCP Server : Received connection from: 127.0.0.1:54736
+2017-04-15 20:13:15,451 : kivy : GL: NPOT texture support is available
+2017-04-15 20:13:56,613 : kivy : Base: Leaving application in progress...
+2017-04-15 20:13:56,892 : mpfmc : Stopping...
+2017-04-15 20:13:56,893 : mpfmc : Loop rate 32.82 Hz
+2017-04-15 20:13:56,894 : kivy : MC run loop ended.
+2017-04-15 20:13:56,895 : kivy : Stopping child threads... (3 remaining)
+2017-04-15 20:13:56,955 : MPF-MC BCP Server : Stopping BCP sending thread
+2017-04-15 20:13:57,465 : mpfmc : Stopping...
+2017-04-15 20:13:57,467 : mpfmc : Loop rate 32.38 Hz
+2017-04-15 20:13:57,514 : kivy : All child threads stopped.
