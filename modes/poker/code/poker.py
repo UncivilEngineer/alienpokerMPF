@@ -19,9 +19,9 @@ class poker(Mode):
         self.player.spade_eject_made = False
         #for now, start with one poker light
         self.player.poker_lights = 1
-        self.player.extra_ball_lit = False
+        self.player.poker_extra_ball_lit = False
         self.player.special_lit = False
-        self.player.extra_ball_awarded = False
+        self.player.poker_extra_ball_awarded = False
         self.player.special_awarded = False
 
         #the events we will be watching for:
@@ -55,15 +55,12 @@ class poker(Mode):
         else:
             self.machine.events.post('spade_eject_flash')
 
-        if (self.player.extra_ball_lit == True and self.player.extra_ball_awarded == False):
+        if (self.player.poker_extra_ball_lit == True and self.player.poker_extra_ball_awarded == False):
             self.machine.events.post('extra_ball_flash')
-
-        if  (self.player.extra_ball_lit == True and self.player.extra_ball_awarded == True):
+        elif (self.player.poker_extra_ball_lit == False and self.player.poker_extra_ball_awarded == True):
             self.machine.events.post('extra_ball_solid')
-
-        if self.player.extra_ball_lit == False:
+        else:
             self.machine.events.post('extra_ball_off')
-
 
         if self.player.special_lit == True:
             self.machine.events.post('special_lit')
@@ -82,6 +79,13 @@ class poker(Mode):
            self.poker_check()
         else:
            self.player.score +=1000
+        #if there is an xtra ball lit, now is the time to award it
+        if self.player.poker_extra_ball_lit == True:
+           self.machine.events.post('award_poker_eb')
+           self.player.poker_extra_ball_lit = False
+           self.player.poker_extra_ball_awarded = True
+           self.poker_light_update()
+
 
     def club_score(self, **kwargs):
         if self.player.club_eject_made == False:
@@ -92,6 +96,14 @@ class poker(Mode):
             self.poker_check()
         else:
             self.player.score += 1000
+
+        #if there is an xtra ball lit, now is the time to award it
+        if self.player.poker_extra_ball_lit == True:
+           self.machine.events.post('award_poker_eb')
+           self.player.poker_extra_ball_lit = False
+           self.player.poker_extra_ball_awarded = True
+           self.poker_light_update()
+
 
     def spade_score(self, **kwargs):
         if self.player.spade_eject_made == False:
@@ -124,12 +136,9 @@ class poker(Mode):
             self.player.spade_eject_made = False
             #now we check to see if we need to light up extra ball, or special
 
-        if (self.player.poker_lights == 3 and self.player.extra_ball_awarded == False):
+        #check for lit extra ball
+        if (self.player.poker_lights == 3 and self.player.poker_extra_ball_awarded == False):
                  #extra ball is lit
-            self.log.info("Extra Ball condition met")
-            self.player.extra_ball_lit == True
-        else:
-            self.log.info("Extra Ball condition not met")
-
-
+            self.player.poker_extra_ball_lit = True
+        #last step, update lights
         self.poker_light_update()

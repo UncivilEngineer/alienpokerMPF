@@ -2,8 +2,15 @@
 mode:
   start_events: game_starting
   stop_events: game_ending
+  stop_on_ball_end: False
   code: poker.poker
   priority: 200
+
+extra_balls:
+  poker_extra_ball:
+    award_events: award_poker_eb
+  special_award:
+    award_events: special_award_eb
 
 light_player:
   hearts_eject_solid:
