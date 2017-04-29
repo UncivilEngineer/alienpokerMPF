@@ -10,17 +10,58 @@ event_player:
   slam_tilt: filppers_off
 
 sound_player:
-  mode_base_started:
-    jedirock1:
-      action: play
-      loops: 2
-  ball_ending:
-    jedirock1:
-      action: stop
+#  mode_base_started:
+#    jedirock1:
+#      action: play
+#      loops: -1
 
-  mode_base_stopping:
-    jedirock1:
-      action: stop
+#  player_turn_stop:
+#    jedirock1:
+#      action: stop
+#  ball_will_end:
+#    jedirock1:
+#      action: stop
+
+#  mode_end_action:
+#    jedirock1:
+#      action: stop
+
+#  mode_base_stopping:
+#    jedirock1:
+#      mode_end_action: stop
+
+  s_left_kicker_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_top_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_top_right_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_lower_right_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_lower_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_left_center_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_right_center_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
+  s_five_bank_standup_active:
+    standup_hit:
+      action: play
+      loops: 1
 
 slide_player:
   mode_base_started:
@@ -65,3 +106,14 @@ scoring:
     score: 10
   s_five_bank_standup_active:
     score: 10
+
+sound_pools:
+   standup_hit:
+     type: random
+     simultaneous_limit: 3
+     stealing_method: skip
+     sounds:
+        - blast1
+        - blast2
+        - blast3
+        - blast4

@@ -1,0 +1,22 @@
+#config_version=4
+mode:
+  start_events: mode_base_started
+  #stop_events: ball_ended.1
+  #stop_on_ball_end: False
+  code: bonus.bonus
+  priority: 200
+
+slide_player:
+  bonus_x_increase:
+    bonus_x_slide:
+      expire: 2s
+
+slides:
+  bonus_x_slide:
+    widgets:
+      - type: text
+        text: (bonus_x)X Bonus!
+        font_name: DS-DIGI
+        font_size: 50
+        y: 100
+        anchor_y: bottom

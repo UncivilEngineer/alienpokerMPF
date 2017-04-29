@@ -18,6 +18,7 @@ modes:
   - base
   - jetbumpers
   - poker
+  - bonus
 
 displays:
     window:
@@ -64,6 +65,7 @@ sounds:
   jedirock1:
     file: jedirock1.ogg
     volume: 0.85
+    fade_out: 1
   jedirock2:
     file: jedirock2ogg
     volume: 0.85
