@@ -6,6 +6,14 @@ mode:
   code: bonus.bonus
   priority: 200
 
+#this is setup to work with the bonus award mode
+#this pauses the event queue while the bonus award
+#mode starts up, and awards the bonus
+queue_relay_player:
+  ball_ending:
+    post: bonus_award_1
+    wait_for:   slide_bonus_award_1_slide_removed
+
 slide_player:
   bonus_x_increase:
     bonus_x_slide:

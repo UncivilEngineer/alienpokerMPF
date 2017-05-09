@@ -1,0 +1,55 @@
+#config_version=4
+mode:
+  start_events: ball_will_end
+  stop_events:  mode_bonus_stopping
+  stop_on_ball_end: False
+  use_wait_queue: True
+  code: bonus_award.bonus_award
+  priority: 500
+
+#this starts the bonus award slide, the
+#event when done doesn't actually do anything here
+queue_event_player:
+  bonus_award_1:
+    queue_event: play_bonus_award_1
+    events_when_finished: bonus_award_done
+
+#I thought there may be more than one slide, so I
+#called the first slide bonus award 1.  Turns out
+#I really only needed one slide
+slide_player:
+  play_bonus_award_1:
+    bonus_award_1_slide:
+      action: play
+
+#this is posted by the python code when the
+#bonus award is done
+  remove_bonus_award_1:
+    bonus_award_1_slide:
+      action: remove
+
+slides:
+  bonus_award_1_slide:
+      widgets:
+        - type: text
+          text: Bonus Award
+          font_name: DS-DIGI
+          font_size: 75
+          y: 100
+          anchor_y: bottom
+        - type: text
+          text: (bonus_x)X  (bonus)
+          font_name: DS-DIGI
+          font_size: 75
+          y: 10
+          anchor_y: bottom
+          number_grouping: true
+          min_digits: 1
+        - type: text
+          text: (score)
+          font_name: DS-DIGI
+          font_size: 75
+          y: 190
+          anchor_y: bottom
+          number_grouping: true
+          min_digits: 2

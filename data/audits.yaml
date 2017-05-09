@@ -1,62 +1,62 @@
 events:
-  game_ended: 48
-  game_started: 277
+  game_ended: 50
+  game_started: 321
 player:
   score:
-    average: 105408.20000000001
+    average: 119212.30769230772
     top:
     - 650630
     - 650000
+    - 648020
     - 602520
     - 337710
     - 297300
+    - 280610
     - 260240
     - 260040
     - 260020
-    - 260020
-    - 175850
-    total: 50
+    total: 52
 switches:
   s_ace_drop_target: 23
-  s_bottom_jet_bumper: 387
+  s_bottom_jet_bumper: 390
   s_center_coin: 0
-  s_center_jet_bumper: 840
-  s_club_ace_eject: 94
-  s_drain: 316
+  s_center_jet_bumper: 853
+  s_club_ace_eject: 123
+  s_drain: 365
   s_five_bank_standup: 117
   s_flipper_lane_change: 496
-  s_heart_ace_eject: 200
+  s_heart_ace_eject: 254
   s_hs_reset: 0
   s_jack_drop_target: 2
-  s_king_clubs_rollover: 49
-  s_king_diamonds_rollover: 26
+  s_king_clubs_rollover: 50
+  s_king_diamonds_rollover: 27
   s_king_drop_target: 67
-  s_king_hearts_rollover: 48
+  s_king_hearts_rollover: 50
   s_king_spades_rollover: 34
   s_left_center_standup: 22
   s_left_coint: 0
-  s_left_inside_rollover: 11
-  s_left_jet_bumper: 63
-  s_left_kicker: 113
-  s_left_special: 30
-  s_lower_left_joker: 36
-  s_lower_right_standup: 127
+  s_left_inside_rollover: 27
+  s_left_jet_bumper: 71
+  s_left_kicker: 118
+  s_left_special: 84
+  s_lower_left_joker: 49
+  s_lower_right_standup: 133
   s_lower_standup: 34
-  s_middle_left_joker: 54
+  s_middle_left_joker: 62
   s_playfield_tilt: 0
   s_queen_drop_target: 1
   s_right_center_standup: 11
   s_right_coin: 0
-  s_right_jet_bumper: 161
-  s_right_joker: 48
-  s_right_special: 18
+  s_right_jet_bumper: 170
+  s_right_joker: 58
+  s_right_special: 23
   s_roll_tilt: 0
   s_slam_tilt: 0
-  s_spade_ace_eject: 166
+  s_spade_ace_eject: 203
   s_spinner: 348
-  s_start_button: 11
+  s_start_button: 12
   s_ten_drop_target: 59
   s_tilt: 0
-  s_top_joker: 73
+  s_top_joker: 77
   s_top_right_standup: 20
   s_top_standup: 29

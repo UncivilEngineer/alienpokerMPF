@@ -25,6 +25,7 @@ class bonus(Mode):
     self.add_mode_event_handler("s_top_joker_active", self.ul_joker_score)
     self.add_mode_event_handler("s_right_Joker_active", self.r_joker_score)
     self.add_mode_event_handler("player_bonus", self.update_bonus_lights)
+    self.add_mode_event_handler("player_bonus_total", self.update_bonus_lights)
     #this routine will handle setting up the lighted jokers
     self.joker_setup()
 

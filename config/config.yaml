@@ -19,6 +19,7 @@ modes:
   - jetbumpers
   - poker
   - bonus
+  - bonus_award
 
 displays:
     window:
