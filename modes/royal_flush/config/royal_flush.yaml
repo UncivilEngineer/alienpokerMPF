@@ -1,0 +1,88 @@
+#config_version=4
+mode:
+  start_events: game_started
+  stop_events: game_ending
+  stop_on_ball_end: False
+  code: royal_flush.royal_flush
+  priority: 300
+
+slide_player:
+  royal_flush_decrease:
+    royal_flush_decrease_slide:
+      expire: 2s
+
+  royal_flush_increase:
+    royal_flush_increase_slide:
+      expire: 2s
+
+  royal_flush_award:
+    royal_flush_award_slide:
+      expire: 2s
+
+slides:
+  royal_flush_decrease_slide:
+    widgets:
+      - type: text
+        text: Royal Flush Value Decreased
+        font_name: DS-DIGI
+        font_size: 50
+        y: 175
+        anchor_y: bottom
+      - type: text
+        text: to (royal_flush_base)
+        font_name: DS-DIGI
+        font_size: 50
+        y: 100
+        anchor_y: bottom
+        number_grouping: true
+        min_digits: 2
+
+  royal_flush_increase_slide:
+    widgets:
+      - type: text
+        text: Royal Flush Value Increased
+        font_name: DS-DIGI
+        font_size: 50
+        y: 175
+        anchor_y: bottom
+      - type: text
+        text: to (royal_flush_base)
+        font_name: DS-DIGI
+        font_size: 50
+        y: 100
+        anchor_y: bottom
+        number_grouping: true
+        min_digits: 2
+
+  royal_flush_award_slide:
+    widgets:
+      - type: text
+        text: ROYAL FLUSH! ROYAL FLUSH!
+        font_name: DS-DIGI
+        font_size: 50
+        y: 225
+        anchor_y: bottom
+      - type: text
+        text: (royal_flush_x) X
+        font_name: DS-DIGI
+        font_size: 50
+        y: 150
+        anchor_y: bottom
+        number_grouping: true
+        min_digits: 1
+      - type: text
+        text: (royal_flush_base)
+        font_name: DS-DIGI
+        font_size: 50
+        y: 75
+        anchor_y: bottom
+        number_grouping: true
+        min_digits: 2
+      - type: text
+        text: (royal_flush_base * royal_flush_x)
+        font_name: DS-DIGI
+        font_size: 50
+        y: 0
+        anchor_y: bottom
+        number_grouping: true
+        min_digits: 2

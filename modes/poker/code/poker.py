@@ -132,6 +132,7 @@ class poker(Mode):
 
         self.poker_check()
         self.player.bonus += 3000
+        self.machine.events.post('poker_spade_eject_made')
 
     def special_award(self, **kwargs):
         if self.player.special_lit == True:

@@ -1,0 +1,13 @@
+#config_version=4
+mode:
+  start_events: game_started
+  stop_events: game_ending
+  stop_on_ball_end: False
+  code: kings.kings
+  priority: 300
+
+show_player:
+  kings_completed:
+    kings_completed_flash_show:
+      speed: 4
+      loops: 2

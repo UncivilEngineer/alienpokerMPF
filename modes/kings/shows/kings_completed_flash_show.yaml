@@ -1,0 +1,14 @@
+#show_version=4
+- duration: 1
+  lights:
+    l_heart_king_rollover: ff
+    l_club_king_rollover: ff
+    l_diamond_king_rollover: ff
+    l_spade_king_rollover: ff
+
+- duration: 1
+  lights:
+    l_heart_king_rollover: 0
+    l_club_king_rollover: 0
+    l_diamond_king_rollover: 0
+    l_spade_king_rollover: 0
